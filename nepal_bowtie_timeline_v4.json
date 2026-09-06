@@ -1,0 +1,593 @@
+{
+  "visualisation_type": "bowtie_risk_timeline",
+  "title": "Nepal NGO Civic-Space Risk Trajectory",
+  "subtitle": "Threat-line status across three retrospective assessment windows",
+  "top_event": {
+    "label": "Loss of operational viability in a country",
+    "description": "The accumulated restrictiveness of the operating environment exceeds what the NGO requires to deliver its core mandate."
+  },
+  "layout": {
+    "orientation": "landscape",
+    "revision_columns": 3,
+    "category_rows": 5,
+    "card_structure": "category card, right-pointing arrow, status card",
+    "show_evidence_ids": false,
+    "show_review_marker": true,
+    "review_marker": "small warning icon",
+    "show_legend": true,
+    "minimal_background": true
+  },
+  "legend": [
+    {
+      "status": "unassessed",
+      "label": "Unassessed",
+      "fill": "#E7E7E7",
+      "border": "#929292",
+      "text": "#565656"
+    },
+    {
+      "status": "low_risk",
+      "label": "Low risk",
+      "fill": "#DCEFD9",
+      "border": "#5BA467",
+      "text": "#357A42"
+    },
+    {
+      "status": "high_risk",
+      "label": "High risk",
+      "fill": "#F6DA91",
+      "border": "#C99016",
+      "text": "#8A630C"
+    },
+    {
+      "status": "materialised",
+      "label": "Materialised",
+      "fill": "#F3C5BA",
+      "border": "#CB604C",
+      "text": "#9B382A"
+    }
+  ],
+  "revisions": [
+    {
+      "revision_id": "baseline_2024_12_31",
+      "revision_key": "baseline",
+      "title": "Baseline",
+      "date": "31 DEC 2024",
+      "order": 1,
+      "repair_attempts": 0,
+      "cards": [
+        {
+          "category_id": "governance",
+          "category_label": "Governance",
+          "category_style": {
+            "fill": "#E5EDF6",
+            "border": "#7594B5",
+            "text": "#274B6D"
+          },
+          "description": "Constitutional and enforcement-level evidence indicates meaningful restriction of…",
+          "status": "high_risk",
+          "status_label": "High risk",
+          "status_style": {
+            "label": "High risk",
+            "fill": "#F6DA91",
+            "border": "#C99016",
+            "text": "#8A630C"
+          },
+          "status_basis_evidence_ids": [
+            "ev_37c556546e9b",
+            "ev_afdc932d5590"
+          ],
+          "human_review_required": true,
+          "evidence_coverage": {
+            "restrictive": [
+              "ev_37c556546e9b",
+              "ev_9f35f352b90c",
+              "ev_afdc932d5590",
+              "ev_bf1f2eb63276",
+              "ev_f1ea4c89c68d"
+            ],
+            "permissive": [],
+            "contextual": []
+          }
+        },
+        {
+          "category_id": "formation",
+          "category_label": "Formation",
+          "category_style": {
+            "fill": "#F8EDCC",
+            "border": "#D3A637",
+            "text": "#80621B"
+          },
+          "description": "No supported evidence has been introduced for this line.",
+          "status": "unassessed",
+          "status_label": "Unassessed",
+          "status_style": {
+            "label": "Unassessed",
+            "fill": "#E7E7E7",
+            "border": "#929292",
+            "text": "#565656"
+          },
+          "status_basis_evidence_ids": [],
+          "human_review_required": true,
+          "evidence_coverage": {
+            "restrictive": [],
+            "permissive": [],
+            "contextual": []
+          }
+        },
+        {
+          "category_id": "operations",
+          "category_label": "Operations",
+          "category_style": {
+            "fill": "#DDF1EA",
+            "border": "#59AD93",
+            "text": "#26735E"
+          },
+          "description": "No supported evidence has been introduced for this line.",
+          "status": "unassessed",
+          "status_label": "Unassessed",
+          "status_style": {
+            "label": "Unassessed",
+            "fill": "#E7E7E7",
+            "border": "#929292",
+            "text": "#565656"
+          },
+          "status_basis_evidence_ids": [],
+          "human_review_required": true,
+          "evidence_coverage": {
+            "restrictive": [],
+            "permissive": [],
+            "contextual": []
+          }
+        },
+        {
+          "category_id": "resources",
+          "category_label": "Resources",
+          "category_style": {
+            "fill": "#ECE5F3",
+            "border": "#9A7CB2",
+            "text": "#654A7A"
+          },
+          "description": "No supported evidence has been introduced for this line.",
+          "status": "unassessed",
+          "status_label": "Unassessed",
+          "status_style": {
+            "label": "Unassessed",
+            "fill": "#E7E7E7",
+            "border": "#929292",
+            "text": "#565656"
+          },
+          "status_basis_evidence_ids": [],
+          "human_review_required": true,
+          "evidence_coverage": {
+            "restrictive": [],
+            "permissive": [],
+            "contextual": []
+          }
+        },
+        {
+          "category_id": "reputational_and_political",
+          "category_label": "Reputational & political",
+          "category_style": {
+            "fill": "#F6DFD8",
+            "border": "#D48970",
+            "text": "#954C37"
+          },
+          "description": "Provisional high_risk assessment based solely on human-review-flagged evidence of…",
+          "status": "high_risk",
+          "status_label": "High risk",
+          "status_style": {
+            "label": "High risk",
+            "fill": "#F6DA91",
+            "border": "#C99016",
+            "text": "#8A630C"
+          },
+          "status_basis_evidence_ids": [
+            "ev_6a1afafe0919"
+          ],
+          "human_review_required": true,
+          "evidence_coverage": {
+            "restrictive": [
+              "ev_6a1afafe0919"
+            ],
+            "permissive": [],
+            "contextual": [
+              "ev_89adf7e75fd7"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "revision_id": "peak_2025_12_31",
+      "revision_key": "peak",
+      "title": "Peak",
+      "date": "LATE 2025",
+      "order": 2,
+      "repair_attempts": 0,
+      "cards": [
+        {
+          "category_id": "governance",
+          "category_label": "Governance",
+          "category_style": {
+            "fill": "#E5EDF6",
+            "border": "#7594B5",
+            "text": "#274B6D"
+          },
+          "description": "Extensive supported restrictive evidence now documents both legal/regulatory…",
+          "status": "high_risk",
+          "status_label": "High risk",
+          "status_style": {
+            "label": "High risk",
+            "fill": "#F6DA91",
+            "border": "#C99016",
+            "text": "#8A630C"
+          },
+          "status_basis_evidence_ids": [
+            "ev_37c556546e9b",
+            "ev_afdc932d5590",
+            "ev_f1ea4c89c68d",
+            "ev_9f35f352b90c",
+            "ev_bf1f2eb63276",
+            "ev_46045c8c9af1",
+            "ev_2c29a3224aff",
+            "ev_5602c2104d1d",
+            "ev_67845be57010",
+            "ev_29a514363ea0",
+            "ev_04e2e3804006",
+            "ev_24e37a4f7a51",
+            "ev_ce00924a3d43",
+            "ev_9359df199216",
+            "ev_db7b3104b4f3",
+            "ev_defa370070da",
+            "ev_d89d09767885"
+          ],
+          "human_review_required": true,
+          "evidence_coverage": {
+            "restrictive": [
+              "ev_04e2e3804006",
+              "ev_24e37a4f7a51",
+              "ev_29a514363ea0",
+              "ev_2c29a3224aff",
+              "ev_37c556546e9b",
+              "ev_46045c8c9af1",
+              "ev_5602c2104d1d",
+              "ev_67845be57010",
+              "ev_9359df199216",
+              "ev_9f35f352b90c",
+              "ev_afdc932d5590",
+              "ev_bf1f2eb63276",
+              "ev_ce00924a3d43",
+              "ev_d89d09767885",
+              "ev_db7b3104b4f3",
+              "ev_defa370070da",
+              "ev_f1ea4c89c68d"
+            ],
+            "permissive": [],
+            "contextual": [
+              "ev_375de3eb0e23",
+              "ev_3b94b211710f",
+              "ev_94d4d1ea1f53",
+              "ev_c897eaf886d3",
+              "ev_f147a981c444"
+            ]
+          }
+        },
+        {
+          "category_id": "formation",
+          "category_label": "Formation",
+          "category_style": {
+            "fill": "#F8EDCC",
+            "border": "#D3A637",
+            "text": "#80621B"
+          },
+          "description": "No supported restrictive or permissive evidence has been established for this line;…",
+          "status": "unassessed",
+          "status_label": "Unassessed",
+          "status_style": {
+            "label": "Unassessed",
+            "fill": "#E7E7E7",
+            "border": "#929292",
+            "text": "#565656"
+          },
+          "status_basis_evidence_ids": [],
+          "human_review_required": true,
+          "evidence_coverage": {
+            "restrictive": [],
+            "permissive": [],
+            "contextual": []
+          }
+        },
+        {
+          "category_id": "operations",
+          "category_label": "Operations",
+          "category_style": {
+            "fill": "#DDF1EA",
+            "border": "#59AD93",
+            "text": "#26735E"
+          },
+          "description": "Provisional high_risk assessment based solely on a single human-review-flagged item…",
+          "status": "high_risk",
+          "status_label": "High risk",
+          "status_style": {
+            "label": "High risk",
+            "fill": "#F6DA91",
+            "border": "#C99016",
+            "text": "#8A630C"
+          },
+          "status_basis_evidence_ids": [
+            "ev_890b06b50e3c"
+          ],
+          "human_review_required": true,
+          "evidence_coverage": {
+            "restrictive": [
+              "ev_890b06b50e3c"
+            ],
+            "permissive": [],
+            "contextual": []
+          }
+        },
+        {
+          "category_id": "resources",
+          "category_label": "Resources",
+          "category_style": {
+            "fill": "#ECE5F3",
+            "border": "#9A7CB2",
+            "text": "#654A7A"
+          },
+          "description": "No supported evidence has been introduced for this line.",
+          "status": "unassessed",
+          "status_label": "Unassessed",
+          "status_style": {
+            "label": "Unassessed",
+            "fill": "#E7E7E7",
+            "border": "#929292",
+            "text": "#565656"
+          },
+          "status_basis_evidence_ids": [],
+          "human_review_required": true,
+          "evidence_coverage": {
+            "restrictive": [],
+            "permissive": [],
+            "contextual": []
+          }
+        },
+        {
+          "category_id": "reputational_and_political",
+          "category_label": "Reputational & political",
+          "category_style": {
+            "fill": "#F6DFD8",
+            "border": "#D48970",
+            "text": "#954C37"
+          },
+          "description": "Provisional high_risk assessment remains based solely on human-review-flagged…",
+          "status": "high_risk",
+          "status_label": "High risk",
+          "status_style": {
+            "label": "High risk",
+            "fill": "#F6DA91",
+            "border": "#C99016",
+            "text": "#8A630C"
+          },
+          "status_basis_evidence_ids": [
+            "ev_6a1afafe0919"
+          ],
+          "human_review_required": true,
+          "evidence_coverage": {
+            "restrictive": [
+              "ev_6a1afafe0919"
+            ],
+            "permissive": [],
+            "contextual": [
+              "ev_511271258614",
+              "ev_89adf7e75fd7"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "revision_id": "divergence_2026_06_30",
+      "revision_key": "divergence",
+      "title": "Divergence",
+      "date": "JUNE 2026",
+      "order": 3,
+      "repair_attempts": 0,
+      "cards": [
+        {
+          "category_id": "governance",
+          "category_label": "Governance",
+          "category_style": {
+            "fill": "#E5EDF6",
+            "border": "#7594B5",
+            "text": "#274B6D"
+          },
+          "description": "Governance remains high_risk. Alongside prior legal/regulatory tightening (Media…",
+          "status": "high_risk",
+          "status_label": "High risk",
+          "status_style": {
+            "label": "High risk",
+            "fill": "#F6DA91",
+            "border": "#C99016",
+            "text": "#8A630C"
+          },
+          "status_basis_evidence_ids": [
+            "ev_37c556546e9b",
+            "ev_afdc932d5590",
+            "ev_f1ea4c89c68d",
+            "ev_9f35f352b90c",
+            "ev_bf1f2eb63276",
+            "ev_46045c8c9af1",
+            "ev_2c29a3224aff",
+            "ev_5602c2104d1d",
+            "ev_67845be57010",
+            "ev_29a514363ea0",
+            "ev_04e2e3804006",
+            "ev_24e37a4f7a51",
+            "ev_ce00924a3d43",
+            "ev_9359df199216",
+            "ev_db7b3104b4f3",
+            "ev_defa370070da",
+            "ev_d89d09767885",
+            "ev_c9f5f6799596",
+            "ev_d3a416f139a2"
+          ],
+          "human_review_required": true,
+          "evidence_coverage": {
+            "restrictive": [
+              "ev_04e2e3804006",
+              "ev_24e37a4f7a51",
+              "ev_29a514363ea0",
+              "ev_2c29a3224aff",
+              "ev_37c556546e9b",
+              "ev_46045c8c9af1",
+              "ev_5602c2104d1d",
+              "ev_67845be57010",
+              "ev_9359df199216",
+              "ev_9f35f352b90c",
+              "ev_afdc932d5590",
+              "ev_bf1f2eb63276",
+              "ev_c9f5f6799596",
+              "ev_ce00924a3d43",
+              "ev_d3a416f139a2",
+              "ev_d89d09767885",
+              "ev_db7b3104b4f3",
+              "ev_defa370070da",
+              "ev_f1ea4c89c68d"
+            ],
+            "permissive": [
+              "ev_4c39e59d3828",
+              "ev_65eb5d2ce92c",
+              "ev_a096cededdbf"
+            ],
+            "contextual": [
+              "ev_375de3eb0e23",
+              "ev_3b94b211710f",
+              "ev_94d4d1ea1f53",
+              "ev_bff9337bdf98",
+              "ev_c897eaf886d3",
+              "ev_f147a981c444"
+            ]
+          }
+        },
+        {
+          "category_id": "formation",
+          "category_label": "Formation",
+          "category_style": {
+            "fill": "#F8EDCC",
+            "border": "#D3A637",
+            "text": "#80621B"
+          },
+          "description": "No supported restrictive or permissive evidence has been established for this line.…",
+          "status": "unassessed",
+          "status_label": "Unassessed",
+          "status_style": {
+            "label": "Unassessed",
+            "fill": "#E7E7E7",
+            "border": "#929292",
+            "text": "#565656"
+          },
+          "status_basis_evidence_ids": [],
+          "human_review_required": true,
+          "evidence_coverage": {
+            "restrictive": [],
+            "permissive": [],
+            "contextual": [
+              "ev_c7f56452e399"
+            ]
+          }
+        },
+        {
+          "category_id": "operations",
+          "category_label": "Operations",
+          "category_style": {
+            "fill": "#DDF1EA",
+            "border": "#59AD93",
+            "text": "#26735E"
+          },
+          "description": "Provisional high_risk assessment remains based solely on a single…",
+          "status": "high_risk",
+          "status_label": "High risk",
+          "status_style": {
+            "label": "High risk",
+            "fill": "#F6DA91",
+            "border": "#C99016",
+            "text": "#8A630C"
+          },
+          "status_basis_evidence_ids": [
+            "ev_890b06b50e3c"
+          ],
+          "human_review_required": true,
+          "evidence_coverage": {
+            "restrictive": [
+              "ev_890b06b50e3c"
+            ],
+            "permissive": [],
+            "contextual": []
+          }
+        },
+        {
+          "category_id": "resources",
+          "category_label": "Resources",
+          "category_style": {
+            "fill": "#ECE5F3",
+            "border": "#9A7CB2",
+            "text": "#654A7A"
+          },
+          "description": "No supported evidence has been introduced for this line.",
+          "status": "unassessed",
+          "status_label": "Unassessed",
+          "status_style": {
+            "label": "Unassessed",
+            "fill": "#E7E7E7",
+            "border": "#929292",
+            "text": "#565656"
+          },
+          "status_basis_evidence_ids": [],
+          "human_review_required": true,
+          "evidence_coverage": {
+            "restrictive": [],
+            "permissive": [],
+            "contextual": []
+          }
+        },
+        {
+          "category_id": "reputational_and_political",
+          "category_label": "Reputational & political",
+          "category_style": {
+            "fill": "#F6DFD8",
+            "border": "#D48970",
+            "text": "#954C37"
+          },
+          "description": "High_risk assessment is now supported by two restrictive items: the previously sole…",
+          "status": "high_risk",
+          "status_label": "High risk",
+          "status_style": {
+            "label": "High risk",
+            "fill": "#F6DA91",
+            "border": "#C99016",
+            "text": "#8A630C"
+          },
+          "status_basis_evidence_ids": [
+            "ev_6a1afafe0919",
+            "ev_2a8030ada4ff"
+          ],
+          "human_review_required": true,
+          "evidence_coverage": {
+            "restrictive": [
+              "ev_2a8030ada4ff",
+              "ev_6a1afafe0919"
+            ],
+            "permissive": [],
+            "contextual": [
+              "ev_09eac7a02b31",
+              "ev_511271258614",
+              "ev_6edbef837fae",
+              "ev_89adf7e75fd7"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,938 @@
+{
+  "stage": "article_maintenance",
+  "model": "claude-sonnet-5",
+  "timestamp": "2026-09-05T17:09:53.861295+00:00",
+  "editorial_policy": {
+    "unassessed": "The available evidence is absent or insufficient to support a substantive judgment for this line.",
+    "low_risk": "Affirmative, supported evidence indicates that no currently effective restriction or loss is established for this line. Low risk must not be assigned solely because no restrictive evidence was retrieved.",
+    "high_risk": "Supported restrictive evidence shows meaningful exposure, deterioration, or an advanced proposal, but direct operational loss is not established.",
+    "materialised": "Supported restrictive evidence establishes a restriction, loss, or condition currently in effect with direct relevance to operational viability."
+  },
+  "status_semantics": {
+    "absence_of_evidence_maps_to": "unassessed",
+    "low_risk_requires_supported_permissive_evidence": true,
+    "high_or_materialised_requires_supported_restrictive_evidence": true
+  },
+  "revisions": [
+    {
+      "revision_id": "baseline_2024_12_31",
+      "revision_summary": {
+        "changed_categories": [
+          "governance",
+          "reputational_and_political"
+        ],
+        "narrative": "Governance moves from unassessed to high_risk based on supported restrictive evidence: constitutional limitation of assembly rights to citizens (ev_37c556546e9b) and documented violent suppression of peaceful protests with impunity (ev_afdc932d5590). Additional human-review-flagged items (ev_9f35f352b90c, ev_bf1f2eb63276, ev_f1ea4c89c68d) corroborate a pattern of restriction on expression/assembly but require verification. Reputational_and_political moves to a provisional high_risk based solely on human-review-flagged evidence of reprisals against a human rights defender (ev_6a1afafe0919); contextual CIVICUS rating (ev_89adf7e75fd7) supports the narrative but cannot independently justify status. Formation, operations, and resources remain unassessed due to no new supported evidence."
+      },
+      "articles": [
+        {
+          "category": "governance",
+          "status": "high_risk",
+          "status_basis_evidence_ids": [
+            "ev_37c556546e9b",
+            "ev_afdc932d5590"
+          ],
+          "summary": "Constitutional and enforcement-level evidence indicates meaningful restriction of assembly and expression rights affecting civic space, though no direct NGO operational loss (e.g., deregistration) is established.",
+          "claims": [
+            {
+              "text": "The constitutional right to peaceful assembly is limited to Nepali citizens, contrary to international standards.",
+              "evidence_ids": [
+                "ev_37c556546e9b"
+              ]
+            },
+            {
+              "text": "Peaceful protests have been met with arbitrary arrests and excessive force, including firearms, with unlawful killings reported and no accountability.",
+              "evidence_ids": [
+                "ev_afdc932d5590"
+              ]
+            },
+            {
+              "text": "The Electronic Transactions Act 2008 has been used to arrest individuals for online criticism of officials, indicating a legal tool with potential chilling effect on civic expression.",
+              "evidence_ids": [
+                "ev_f1ea4c89c68d"
+              ]
+            },
+            {
+              "text": "Activists protesting for justice were repeatedly arrested/detained before a negotiated agreement suspended the protest.",
+              "evidence_ids": [
+                "ev_9f35f352b90c"
+              ]
+            },
+            {
+              "text": "A prominent media executive was arrested on documentation grounds, viewed by press freedom groups as retaliatory for critical reporting.",
+              "evidence_ids": [
+                "ev_bf1f2eb63276"
+              ]
+            }
+          ],
+          "open_items": [
+            "Verify whether Electronic Transactions Act enforcement extends to NGO staff or organisational activity, not only individual critics.",
+            "Confirm whether the Ruby Khan/activist agreement represents durable improvement or a temporary pause in restrictive practice.",
+            "Assess whether Sirohiya arrest reflects a broader pattern of using unrelated legal grounds against critical civil society actors."
+          ],
+          "barriers_to_verify": [
+            "appeal_and_judicial_review"
+          ],
+          "change_from_previous": "Changed from unassessed to high_risk based on new supported restrictive evidence on assembly restriction and protest suppression; additional human-review-flagged items add corroborating but unverified detail.",
+          "human_review_required": true
+        },
+        {
+          "category": "formation",
+          "status": "unassessed",
+          "status_basis_evidence_ids": [],
+          "summary": "No supported evidence has been introduced for this line.",
+          "claims": [],
+          "open_items": [
+            "Establish sufficient evidence coverage for this line."
+          ],
+          "barriers_to_verify": [],
+          "change_from_previous": "no change",
+          "human_review_required": true
+        },
+        {
+          "category": "operations",
+          "status": "unassessed",
+          "status_basis_evidence_ids": [],
+          "summary": "No supported evidence has been introduced for this line.",
+          "claims": [],
+          "open_items": [
+            "Establish sufficient evidence coverage for this line."
+          ],
+          "barriers_to_verify": [],
+          "change_from_previous": "no change",
+          "human_review_required": true
+        },
+        {
+          "category": "resources",
+          "status": "unassessed",
+          "status_basis_evidence_ids": [],
+          "summary": "No supported evidence has been introduced for this line.",
+          "claims": [],
+          "open_items": [
+            "Establish sufficient evidence coverage for this line."
+          ],
+          "barriers_to_verify": [],
+          "change_from_previous": "no change",
+          "human_review_required": true
+        },
+        {
+          "category": "reputational_and_political",
+          "status": "high_risk",
+          "status_basis_evidence_ids": [
+            "ev_6a1afafe0919"
+          ],
+          "summary": "Provisional high_risk assessment based solely on human-review-flagged evidence of reprisals against a human rights defender opposing a development project; general civic space rating provides contextual but non-determinative support.",
+          "claims": [
+            {
+              "text": "UN experts expressed concern over ongoing reprisals, including intimidation and a contempt of court case, against a human rights defender opposing the Chhaya Center development.",
+              "evidence_ids": [
+                "ev_6a1afafe0919"
+              ]
+            },
+            {
+              "text": "Nepal's civic space has been rated 'Obstructed' by CIVICUS continuously from 2018 through 2024, providing general operating-environment context.",
+              "evidence_ids": [
+                "ev_89adf7e75fd7"
+              ]
+            }
+          ],
+          "open_items": [
+            "Verify whether reprisal pattern against this defender generalizes to NGOs beyond the single project-specific case.",
+            "Determine underlying drivers of the CIVICUS 'Obstructed' score to assess relevance beyond general context."
+          ],
+          "barriers_to_verify": [
+            "public_trust_and_proactive_transparency"
+          ],
+          "change_from_previous": "Changed from unassessed to a provisional high_risk resting on human-review-flagged restrictive evidence; contextual rating evidence alone does not justify status change.",
+          "human_review_required": true
+        }
+      ],
+      "_raw_text": "{\n  \"revision_id\": \"baseline_2024_12_31\",\n  \"revision_summary\": {\n    \"changed_categories\": [\"governance\", \"reputational_and_political\"],\n    \"narrative\": \"Governance moves from unassessed to high_risk based on supported restrictive evidence: constitutional limitation of assembly rights to citizens (ev_37c556546e9b) and documented violent suppression of peaceful protests with impunity (ev_afdc932d5590). Additional human-review-flagged items (ev_9f35f352b90c, ev_bf1f2eb63276, ev_f1ea4c89c68d) corroborate a pattern of restriction on expression/assembly but require verification. Reputational_and_political moves to a provisional high_risk based solely on human-review-flagged evidence of reprisals against a human rights defender (ev_6a1afafe0919); contextual CIVICUS rating (ev_89adf7e75fd7) supports the narrative but cannot independently justify status. Formation, operations, and resources remain unassessed due to no new supported evidence.\"\n  },\n  \"articles\": [\n    {\n      \"category\": \"governance\",\n      \"status\": \"high_risk\",\n      \"status_basis_evidence_ids\": [\"ev_37c556546e9b\", \"ev_afdc932d5590\"],\n      \"summary\": \"Constitutional and enforcement-level evidence indicates meaningful restriction of assembly and expression rights affecting civic space, though no direct NGO operational loss (e.g., deregistration) is established.\",\n      \"claims\": [\n        {\"text\": \"The constitutional right to peaceful assembly is limited to Nepali citizens, contrary to international standards.\", \"evidence_ids\": [\"ev_37c556546e9b\"]},\n        {\"text\": \"Peaceful protests have been met with arbitrary arrests and excessive force, including firearms, with unlawful killings reported and no accountability.\", \"evidence_ids\": [\"ev_afdc932d5590\"]},\n        {\"text\": \"The Electronic Transactions Act 2008 has been used to arrest individuals for online criticism of officials, indicating a legal tool with potential chilling effect on civic expression.\", \"evidence_ids\": [\"ev_f1ea4c89c68d\"]},\n        {\"text\": \"Activists protesting for justice were repeatedly arrested/detained before a negotiated agreement suspended the protest.\", \"evidence_ids\": [\"ev_9f35f352b90c\"]},\n        {\"text\": \"A prominent media executive was arrested on documentation grounds, viewed by press freedom groups as retaliatory for critical reporting.\", \"evidence_ids\": [\"ev_bf1f2eb63276\"]}\n      ],\n      \"open_items\": [\n        \"Verify whether Electronic Transactions Act enforcement extends to NGO staff or organisational activity, not only individual critics.\",\n        \"Confirm whether the Ruby Khan/activist agreement represents durable improvement or a temporary pause in restrictive practice.\",\n        \"Assess whether Sirohiya arrest reflects a broader pattern of using unrelated legal grounds against critical civil society actors.\"\n      ],\n      \"barriers_to_verify\": [\"appeal_and_judicial_review\"],\n      \"change_from_previous\": \"Changed from unassessed to high_risk based on new supported restrictive evidence on assembly restriction and protest suppression; additional human-review-flagged items add corroborating but unverified detail.\",\n      \"human_review_required\": true\n    },\n    {\n      \"category\": \"formation\",\n      \"status\": \"unassessed\",\n      \"status_basis_evidence_ids\": [],\n      \"summary\": \"No supported evidence has been introduced for this line.\",\n      \"claims\": [],\n      \"open_items\": [\"Establish sufficient evidence coverage for this line.\"],\n      \"barriers_to_verify\": [],\n      \"change_from_previous\": \"no change\",\n      \"human_review_required\": true\n    },\n    {\n      \"category\": \"operations\",\n      \"status\": \"unassessed\",\n      \"status_basis_evidence_ids\": [],\n      \"summary\": \"No supported evidence has been introduced for this line.\",\n      \"claims\": [],\n      \"open_items\": [\"Establish sufficient evidence coverage for this line.\"],\n      \"barriers_to_verify\": [],\n      \"change_from_previous\": \"no change\",\n      \"human_review_required\": true\n    },\n    {\n      \"category\": \"resources\",\n      \"status\": \"unassessed\",\n      \"status_basis_evidence_ids\": [],\n      \"summary\": \"No supported evidence has been introduced for this line.\",\n      \"claims\": [],\n      \"open_items\": [\"Establish sufficient evidence coverage for this line.\"],\n      \"barriers_to_verify\": [],\n      \"change_from_previous\": \"no change\",\n      \"human_review_required\": true\n    },\n    {\n      \"category\": \"reputational_and_political\",\n      \"status\": \"high_risk\",\n      \"status_basis_evidence_ids\": [\"ev_6a1afafe0919\"],\n      \"summary\": \"Provisional high_risk assessment based solely on human-review-flagged evidence of reprisals against a human rights defender opposing a development project; general civic space rating provides contextual but non-determinative support.\",\n      \"claims\": [\n        {\"text\": \"UN experts expressed concern over ongoing reprisals, including intimidation and a contempt of court case, against a human rights defender opposing the Chhaya Center development.\", \"evidence_ids\": [\"ev_6a1afafe0919\"]},\n        {\"text\": \"Nepal's civic space has been rated 'Obstructed' by CIVICUS continuously from 2018 through 2024, providing general operating-environment context.\", \"evidence_ids\": [\"ev_89adf7e75fd7\"]}\n      ],\n      \"open_items\": [\n        \"Verify whether reprisal pattern against this defender generalizes to NGOs beyond the single project-specific case.\",\n        \"Determine underlying drivers of the CIVICUS 'Obstructed' score to assess relevance beyond general context.\"\n      ],\n      \"barriers_to_verify\": [\"public_trust_and_proactive_transparency\"],\n      \"change_from_previous\": \"Changed from unassessed to a provisional high_risk resting on human-review-flagged restrictive evidence; contextual rating evidence alone does not justify status change.\",\n      \"human_review_required\": true\n    }\n  ]\n}",
+      "_repair_attempts": 0,
+      "_new_evidence_ids": [
+        "ev_37c556546e9b",
+        "ev_89adf7e75fd7",
+        "ev_afdc932d5590",
+        "ev_f013a78c381e",
+        "ev_61e22293a5ea",
+        "ev_f1ea4c89c68d",
+        "ev_9f35f352b90c",
+        "ev_bf1f2eb63276",
+        "ev_6a1afafe0919"
+      ],
+      "_model_called": true,
+      "_coverage_by_category": {
+        "governance": {
+          "supported_restrictive_evidence_ids": [
+            "ev_37c556546e9b",
+            "ev_9f35f352b90c",
+            "ev_afdc932d5590",
+            "ev_bf1f2eb63276",
+            "ev_f1ea4c89c68d"
+          ],
+          "supported_permissive_evidence_ids": [],
+          "supported_contextual_evidence_ids": [],
+          "insufficiently_grounded_evidence_ids": [],
+          "human_review_evidence_ids": [
+            "ev_9f35f352b90c",
+            "ev_bf1f2eb63276",
+            "ev_f1ea4c89c68d"
+          ],
+          "has_supported_status_evidence": true,
+          "has_affirmative_low_risk_evidence": false
+        },
+        "formation": {
+          "supported_restrictive_evidence_ids": [],
+          "supported_permissive_evidence_ids": [],
+          "supported_contextual_evidence_ids": [],
+          "insufficiently_grounded_evidence_ids": [],
+          "human_review_evidence_ids": [],
+          "has_supported_status_evidence": false,
+          "has_affirmative_low_risk_evidence": false
+        },
+        "operations": {
+          "supported_restrictive_evidence_ids": [],
+          "supported_permissive_evidence_ids": [],
+          "supported_contextual_evidence_ids": [],
+          "insufficiently_grounded_evidence_ids": [],
+          "human_review_evidence_ids": [],
+          "has_supported_status_evidence": false,
+          "has_affirmative_low_risk_evidence": false
+        },
+        "resources": {
+          "supported_restrictive_evidence_ids": [],
+          "supported_permissive_evidence_ids": [],
+          "supported_contextual_evidence_ids": [],
+          "insufficiently_grounded_evidence_ids": [],
+          "human_review_evidence_ids": [],
+          "has_supported_status_evidence": false,
+          "has_affirmative_low_risk_evidence": false
+        },
+        "reputational_and_political": {
+          "supported_restrictive_evidence_ids": [
+            "ev_6a1afafe0919"
+          ],
+          "supported_permissive_evidence_ids": [],
+          "supported_contextual_evidence_ids": [
+            "ev_89adf7e75fd7"
+          ],
+          "insufficiently_grounded_evidence_ids": [],
+          "human_review_evidence_ids": [
+            "ev_6a1afafe0919",
+            "ev_89adf7e75fd7"
+          ],
+          "has_supported_status_evidence": true,
+          "has_affirmative_low_risk_evidence": false
+        }
+      }
+    },
+    {
+      "revision_id": "peak_2025_12_31",
+      "revision_summary": {
+        "changed_categories": [
+          "operations"
+        ],
+        "narrative": "Governance evidence base expanded dramatically (ev_46045c8c9af1, ev_2c29a3224aff, ev_5602c2104d1d, ev_ce00924a3d43, ev_9359df199216, ev_db7b3104b4f3, ev_defa370070da, ev_d89d09767885, ev_67845be57010, ev_29a514363ea0, ev_04e2e3804006, ev_24e37a4f7a51) documenting a deadly Gen Z protest crackdown, enforced social media platform blocking, a passed Media Council Bill, and multiple draft bills (NGO consolidation, social media, intelligence/surveillance). This reinforces but does not upgrade the prior high_risk status, since no NGO-specific operational loss (deregistration, suspension) is established. Operations moves from unassessed to a provisional high_risk based on a single human-review-flagged, vaguely-specified restrictive item (ev_890b06b50e3c) about a draft NGO law's 'controls and burdensome requirements'. Reputational_and_political gains contextual civil-society coalition evidence (ev_511271258614) but no status change. Formation and resources remain unassessed; no supported evidence introduced for formation (ev_8db75bc2155e remains insufficiently grounded)."
+      },
+      "articles": [
+        {
+          "category": "governance",
+          "status": "high_risk",
+          "status_basis_evidence_ids": [
+            "ev_37c556546e9b",
+            "ev_afdc932d5590",
+            "ev_f1ea4c89c68d",
+            "ev_9f35f352b90c",
+            "ev_bf1f2eb63276",
+            "ev_46045c8c9af1",
+            "ev_2c29a3224aff",
+            "ev_5602c2104d1d",
+            "ev_67845be57010",
+            "ev_29a514363ea0",
+            "ev_04e2e3804006",
+            "ev_24e37a4f7a51",
+            "ev_ce00924a3d43",
+            "ev_9359df199216",
+            "ev_db7b3104b4f3",
+            "ev_defa370070da",
+            "ev_d89d09767885"
+          ],
+          "summary": "Extensive supported restrictive evidence now documents both legal/regulatory tightening (Media Council Bill passed; draft NGO registration/consolidation bill dissolving the Social Welfare Council; draft social media and intelligence/surveillance bills) and severe enforcement-level suppression (2024 protest restrictions, and a deadly September 2025 crackdown on Gen Z protests with dozens killed and continuing lack of accountability). No NGO-specific deregistration or forced closure is established, so status remains high_risk rather than materialised, but the pattern of enacted and pending restrictions is substantial and escalating.",
+          "claims": [
+            {
+              "text": "The constitutional right to peaceful assembly is limited to Nepali citizens, contrary to international standards.",
+              "evidence_ids": [
+                "ev_37c556546e9b"
+              ]
+            },
+            {
+              "text": "2024 protests were met with arbitrary arrests, excessive force including firearms, unlawful killings, and no accountability; Amnesty International corroborated this pattern in an April 2025 report.",
+              "evidence_ids": [
+                "ev_afdc932d5590",
+                "ev_d89d09767885"
+              ]
+            },
+            {
+              "text": "The Electronic Transactions Act 2008 has been used to arrest individuals for online criticism, and a media executive was arrested on documentation grounds seen as retaliatory.",
+              "evidence_ids": [
+                "ev_f1ea4c89c68d",
+                "ev_bf1f2eb63276"
+              ]
+            },
+            {
+              "text": "A Media Council Bill replacing the independent Press Council with a government-influenced regulator was passed in February 2025.",
+              "evidence_ids": [
+                "ev_46045c8c9af1"
+              ]
+            },
+            {
+              "text": "A Social Media Bill (Feb 2025) and repeated registration directives (May 2025) impose registration, penalisation, and content-moderation obligations on platforms.",
+              "evidence_ids": [
+                "ev_2c29a3224aff",
+                "ev_5602c2104d1d"
+              ]
+            },
+            {
+              "text": "Draft bills to consolidate NGO governing laws and dissolve the Social Welfare Council under Home Ministry control were introduced in August-September 2025.",
+              "evidence_ids": [
+                "ev_67845be57010",
+                "ev_29a514363ea0"
+              ]
+            },
+            {
+              "text": "Draft counter-intelligence and intelligence bills would expand state surveillance of communications, raising privacy and civic-space concerns.",
+              "evidence_ids": [
+                "ev_04e2e3804006",
+                "ev_24e37a4f7a51"
+              ]
+            },
+            {
+              "text": "A government order to block 26 unregistered social media platforms in September 2025 precipitated deadly Gen Z protests; police used lethal force killing dozens, with HRW and Amnesty documenting unlawful killings and continued lack of accountability into December 2025.",
+              "evidence_ids": [
+                "ev_ce00924a3d43",
+                "ev_9359df199216",
+                "ev_db7b3104b4f3",
+                "ev_defa370070da"
+              ]
+            }
+          ],
+          "open_items": [
+            "Verify whether the draft NGO consolidation bill (ev_67845be57010, ev_29a514363ea0) advances to enactment and its final provisions.",
+            "Confirm whether the social media platform ban remains in effect or was reversed following the political transition.",
+            "Track accountability outcomes for the September 2025 crackdown given documented lack of accountability as of December 2025.",
+            "Assess whether the interim government (ev_c897eaf886d3) changes the trajectory of pending restrictive bills."
+          ],
+          "barriers_to_verify": [
+            "appeal_and_judicial_review"
+          ],
+          "change_from_previous": "Status unchanged at high_risk; evidence base substantially expanded with major escalation (enacted Media Council Bill, enforced platform blocking, deadly crackdown, multiple pending restrictive bills), but no direct NGO-specific operational loss established, so materialised is not yet warranted.",
+          "human_review_required": true
+        },
+        {
+          "category": "formation",
+          "status": "unassessed",
+          "status_basis_evidence_ids": [],
+          "summary": "No supported restrictive or permissive evidence has been established for this line; the only new item (draft NGO/Social Organisation bill context) is insufficiently grounded.",
+          "claims": [],
+          "open_items": [
+            "Establish sufficient supported evidence coverage for this line, particularly regarding the 2025 draft Social Organisation/NGO bill's specific formation-related provisions."
+          ],
+          "barriers_to_verify": [],
+          "change_from_previous": "no change",
+          "human_review_required": true
+        },
+        {
+          "category": "operations",
+          "status": "high_risk",
+          "status_basis_evidence_ids": [
+            "ev_890b06b50e3c"
+          ],
+          "summary": "Provisional high_risk assessment based solely on a single human-review-flagged item noting that a draft NGO law raises concerns about 'increasing controls and burdensome requirements' for civil society; the specific operational mechanism is not detailed.",
+          "claims": [
+            {
+              "text": "CIVICUS reported that a draft NGO law has raised concerns about increasing controls and burdensome requirements for civil society organisations.",
+              "evidence_ids": [
+                "ev_890b06b50e3c"
+              ]
+            }
+          ],
+          "open_items": [
+            "Identify the specific operational requirements (reporting, audits, geographic/sectoral restrictions) proposed in the draft NGO law.",
+            "Determine whether this bill is the same instrument referenced in governance-category evidence (ev_67845be57010, ev_29a514363ea0, ev_8db75bc2155e)."
+          ],
+          "barriers_to_verify": [
+            "general_operating_licence_and_self_regulation"
+          ],
+          "change_from_previous": "Changed from unassessed to a provisional high_risk resting solely on human-review-flagged, vaguely-specified restrictive evidence; treat as provisional pending clarification of the bill's precise operational provisions.",
+          "human_review_required": true
+        },
+        {
+          "category": "resources",
+          "status": "unassessed",
+          "status_basis_evidence_ids": [],
+          "summary": "No supported evidence has been introduced for this line.",
+          "claims": [],
+          "open_items": [
+            "Establish sufficient evidence coverage for this line."
+          ],
+          "barriers_to_verify": [],
+          "change_from_previous": "no change",
+          "human_review_required": true
+        },
+        {
+          "category": "reputational_and_political",
+          "status": "high_risk",
+          "status_basis_evidence_ids": [
+            "ev_6a1afafe0919"
+          ],
+          "summary": "Provisional high_risk assessment remains based solely on human-review-flagged evidence of reprisals against a human rights defender opposing a development project; new contextual evidence of a civil society coalition advocating for transparent digital regulation, and the pre-existing 'Obstructed' CIVICUS rating, provide non-determinative background.",
+          "claims": [
+            {
+              "text": "UN experts expressed concern over ongoing reprisals, including intimidation and a contempt of court case, against a human rights defender opposing the Chhaya Center development.",
+              "evidence_ids": [
+                "ev_6a1afafe0919"
+              ]
+            },
+            {
+              "text": "Nepal's civic space has been rated 'Obstructed' by CIVICUS continuously from 2018 through 2024, providing general operating-environment context.",
+              "evidence_ids": [
+                "ev_89adf7e75fd7"
+              ]
+            },
+            {
+              "text": "A coalition of 31 civil society and digital rights organisations convened in May 2025 to advocate for transparent, inclusive digital platform regulation, indicating continued space for civil society advocacy.",
+              "evidence_ids": [
+                "ev_511271258614"
+              ]
+            }
+          ],
+          "open_items": [
+            "Verify whether reprisal pattern against this defender generalizes to NGOs beyond the single project-specific case.",
+            "Determine whether the civil society coalition's advocacy activity reflects durable protected space or an isolated instance."
+          ],
+          "barriers_to_verify": [
+            "public_trust_and_proactive_transparency"
+          ],
+          "change_from_previous": "no change; new contextual evidence added but does not alter the provisional high_risk status.",
+          "human_review_required": true
+        }
+      ],
+      "_raw_text": "{\n  \"revision_id\": \"peak_2025_12_31\",\n  \"revision_summary\": {\n    \"changed_categories\": [\"operations\"],\n    \"narrative\": \"Governance evidence base expanded dramatically (ev_46045c8c9af1, ev_2c29a3224aff, ev_5602c2104d1d, ev_ce00924a3d43, ev_9359df199216, ev_db7b3104b4f3, ev_defa370070da, ev_d89d09767885, ev_67845be57010, ev_29a514363ea0, ev_04e2e3804006, ev_24e37a4f7a51) documenting a deadly Gen Z protest crackdown, enforced social media platform blocking, a passed Media Council Bill, and multiple draft bills (NGO consolidation, social media, intelligence/surveillance). This reinforces but does not upgrade the prior high_risk status, since no NGO-specific operational loss (deregistration, suspension) is established. Operations moves from unassessed to a provisional high_risk based on a single human-review-flagged, vaguely-specified restrictive item (ev_890b06b50e3c) about a draft NGO law's 'controls and burdensome requirements'. Reputational_and_political gains contextual civil-society coalition evidence (ev_511271258614) but no status change. Formation and resources remain unassessed; no supported evidence introduced for formation (ev_8db75bc2155e remains insufficiently grounded).\"\n  },\n  \"articles\": [\n    {\n      \"category\": \"governance\",\n      \"status\": \"high_risk\",\n      \"status_basis_evidence_ids\": [\n        \"ev_37c556546e9b\",\n        \"ev_afdc932d5590\",\n        \"ev_f1ea4c89c68d\",\n        \"ev_9f35f352b90c\",\n        \"ev_bf1f2eb63276\",\n        \"ev_46045c8c9af1\",\n        \"ev_2c29a3224aff\",\n        \"ev_5602c2104d1d\",\n        \"ev_67845be57010\",\n        \"ev_29a514363ea0\",\n        \"ev_04e2e3804006\",\n        \"ev_24e37a4f7a51\",\n        \"ev_ce00924a3d43\",\n        \"ev_9359df199216\",\n        \"ev_db7b3104b4f3\",\n        \"ev_defa370070da\",\n        \"ev_d89d09767885\"\n      ],\n      \"summary\": \"Extensive supported restrictive evidence now documents both legal/regulatory tightening (Media Council Bill passed; draft NGO registration/consolidation bill dissolving the Social Welfare Council; draft social media and intelligence/surveillance bills) and severe enforcement-level suppression (2024 protest restrictions, and a deadly September 2025 crackdown on Gen Z protests with dozens killed and continuing lack of accountability). No NGO-specific deregistration or forced closure is established, so status remains high_risk rather than materialised, but the pattern of enacted and pending restrictions is substantial and escalating.\",\n      \"claims\": [\n        {\n          \"text\": \"The constitutional right to peaceful assembly is limited to Nepali citizens, contrary to international standards.\",\n          \"evidence_ids\": [\"ev_37c556546e9b\"]\n        },\n        {\n          \"text\": \"2024 protests were met with arbitrary arrests, excessive force including firearms, unlawful killings, and no accountability; Amnesty International corroborated this pattern in an April 2025 report.\",\n          \"evidence_ids\": [\"ev_afdc932d5590\", \"ev_d89d09767885\"]\n        },\n        {\n          \"text\": \"The Electronic Transactions Act 2008 has been used to arrest individuals for online criticism, and a media executive was arrested on documentation grounds seen as retaliatory.\",\n          \"evidence_ids\": [\"ev_f1ea4c89c68d\", \"ev_bf1f2eb63276\"]\n        },\n        {\n          \"text\": \"A Media Council Bill replacing the independent Press Council with a government-influenced regulator was passed in February 2025.\",\n          \"evidence_ids\": [\"ev_46045c8c9af1\"]\n        },\n        {\n          \"text\": \"A Social Media Bill (Feb 2025) and repeated registration directives (May 2025) impose registration, penalisation, and content-moderation obligations on platforms.\",\n          \"evidence_ids\": [\"ev_2c29a3224aff\", \"ev_5602c2104d1d\"]\n        },\n        {\n          \"text\": \"Draft bills to consolidate NGO governing laws and dissolve the Social Welfare Council under Home Ministry control were introduced in August-September 2025.\",\n          \"evidence_ids\": [\"ev_67845be57010\", \"ev_29a514363ea0\"]\n        },\n        {\n          \"text\": \"Draft counter-intelligence and intelligence bills would expand state surveillance of communications, raising privacy and civic-space concerns.\",\n          \"evidence_ids\": [\"ev_04e2e3804006\", \"ev_24e37a4f7a51\"]\n        },\n        {\n          \"text\": \"A government order to block 26 unregistered social media platforms in September 2025 precipitated deadly Gen Z protests; police used lethal force killing dozens, with HRW and Amnesty documenting unlawful killings and continued lack of accountability into December 2025.\",\n          \"evidence_ids\": [\"ev_ce00924a3d43\", \"ev_9359df199216\", \"ev_db7b3104b4f3\", \"ev_defa370070da\"]\n        }\n      ],\n      \"open_items\": [\n        \"Verify whether the draft NGO consolidation bill (ev_67845be57010, ev_29a514363ea0) advances to enactment and its final provisions.\",\n        \"Confirm whether the social media platform ban remains in effect or was reversed following the political transition.\",\n        \"Track accountability outcomes for the September 2025 crackdown given documented lack of accountability as of December 2025.\",\n        \"Assess whether the interim government (ev_c897eaf886d3) changes the trajectory of pending restrictive bills.\"\n      ],\n      \"barriers_to_verify\": [\"appeal_and_judicial_review\"],\n      \"change_from_previous\": \"Status unchanged at high_risk; evidence base substantially expanded with major escalation (enacted Media Council Bill, enforced platform blocking, deadly crackdown, multiple pending restrictive bills), but no direct NGO-specific operational loss established, so materialised is not yet warranted.\",\n      \"human_review_required\": true\n    },\n    {\n      \"category\": \"formation\",\n      \"status\": \"unassessed\",\n      \"status_basis_evidence_ids\": [],\n      \"summary\": \"No supported restrictive or permissive evidence has been established for this line; the only new item (draft NGO/Social Organisation bill context) is insufficiently grounded.\",\n      \"claims\": [],\n      \"open_items\": [\n        \"Establish sufficient supported evidence coverage for this line, particularly regarding the 2025 draft Social Organisation/NGO bill's specific formation-related provisions.\"\n      ],\n      \"barriers_to_verify\": [],\n      \"change_from_previous\": \"no change\",\n      \"human_review_required\": true\n    },\n    {\n      \"category\": \"operations\",\n      \"status\": \"high_risk\",\n      \"status_basis_evidence_ids\": [\"ev_890b06b50e3c\"],\n      \"summary\": \"Provisional high_risk assessment based solely on a single human-review-flagged item noting that a draft NGO law raises concerns about 'increasing controls and burdensome requirements' for civil society; the specific operational mechanism is not detailed.\",\n      \"claims\": [\n        {\n          \"text\": \"CIVICUS reported that a draft NGO law has raised concerns about increasing controls and burdensome requirements for civil society organisations.\",\n          \"evidence_ids\": [\"ev_890b06b50e3c\"]\n        }\n      ],\n      \"open_items\": [\n        \"Identify the specific operational requirements (reporting, audits, geographic/sectoral restrictions) proposed in the draft NGO law.\",\n        \"Determine whether this bill is the same instrument referenced in governance-category evidence (ev_67845be57010, ev_29a514363ea0, ev_8db75bc2155e).\"\n      ],\n      \"barriers_to_verify\": [\"general_operating_licence_and_self_regulation\"],\n      \"change_from_previous\": \"Changed from unassessed to a provisional high_risk resting solely on human-review-flagged, vaguely-specified restrictive evidence; treat as provisional pending clarification of the bill's precise operational provisions.\",\n      \"human_review_required\": true\n    },\n    {\n      \"category\": \"resources\",\n      \"status\": \"unassessed\",\n      \"status_basis_evidence_ids\": [],\n      \"summary\": \"No supported evidence has been introduced for this line.\",\n      \"claims\": [],\n      \"open_items\": [\n        \"Establish sufficient evidence coverage for this line.\"\n      ],\n      \"barriers_to_verify\": [],\n      \"change_from_previous\": \"no change\",\n      \"human_review_required\": true\n    },\n    {\n      \"category\": \"reputational_and_political\",\n      \"status\": \"high_risk\",\n      \"status_basis_evidence_ids\": [\"ev_6a1afafe0919\"],\n      \"summary\": \"Provisional high_risk assessment remains based solely on human-review-flagged evidence of reprisals against a human rights defender opposing a development project; new contextual evidence of a civil society coalition advocating for transparent digital regulation, and the pre-existing 'Obstructed' CIVICUS rating, provide non-determinative background.\",\n      \"claims\": [\n        {\n          \"text\": \"UN experts expressed concern over ongoing reprisals, including intimidation and a contempt of court case, against a human rights defender opposing the Chhaya Center development.\",\n          \"evidence_ids\": [\"ev_6a1afafe0919\"]\n        },\n        {\n          \"text\": \"Nepal's civic space has been rated 'Obstructed' by CIVICUS continuously from 2018 through 2024, providing general operating-environment context.\",\n          \"evidence_ids\": [\"ev_89adf7e75fd7\"]\n        },\n        {\n          \"text\": \"A coalition of 31 civil society and digital rights organisations convened in May 2025 to advocate for transparent, inclusive digital platform regulation, indicating continued space for civil society advocacy.\",\n          \"evidence_ids\": [\"ev_511271258614\"]\n        }\n      ],\n      \"open_items\": [\n        \"Verify whether reprisal pattern against this defender generalizes to NGOs beyond the single project-specific case.\",\n        \"Determine whether the civil society coalition's advocacy activity reflects durable protected space or an isolated instance.\"\n      ],\n      \"barriers_to_verify\": [\"public_trust_and_proactive_transparency\"],\n      \"change_from_previous\": \"no change; new contextual evidence added but does not alter the provisional high_risk status.\",\n      \"human_review_required\": true\n    }\n  ]\n}",
+      "_repair_attempts": 0,
+      "_new_evidence_ids": [
+        "ev_67845be57010",
+        "ev_f147a981c444",
+        "ev_2c29a3224aff",
+        "ev_46045c8c9af1",
+        "ev_5602c2104d1d",
+        "ev_511271258614",
+        "ev_7aca642e5c5f",
+        "ev_b2d5ba622b51",
+        "ev_d89d09767885",
+        "ev_375de3eb0e23",
+        "ev_04e2e3804006",
+        "ev_24e37a4f7a51",
+        "ev_8db75bc2155e",
+        "ev_29a514363ea0",
+        "ev_ce00924a3d43",
+        "ev_9359df199216",
+        "ev_c897eaf886d3",
+        "ev_890b06b50e3c",
+        "ev_db7b3104b4f3",
+        "ev_defa370070da",
+        "ev_3b94b211710f",
+        "ev_94d4d1ea1f53"
+      ],
+      "_model_called": true,
+      "_coverage_by_category": {
+        "governance": {
+          "supported_restrictive_evidence_ids": [
+            "ev_04e2e3804006",
+            "ev_24e37a4f7a51",
+            "ev_29a514363ea0",
+            "ev_2c29a3224aff",
+            "ev_37c556546e9b",
+            "ev_46045c8c9af1",
+            "ev_5602c2104d1d",
+            "ev_67845be57010",
+            "ev_9359df199216",
+            "ev_9f35f352b90c",
+            "ev_afdc932d5590",
+            "ev_bf1f2eb63276",
+            "ev_ce00924a3d43",
+            "ev_d89d09767885",
+            "ev_db7b3104b4f3",
+            "ev_defa370070da",
+            "ev_f1ea4c89c68d"
+          ],
+          "supported_permissive_evidence_ids": [],
+          "supported_contextual_evidence_ids": [
+            "ev_375de3eb0e23",
+            "ev_3b94b211710f",
+            "ev_94d4d1ea1f53",
+            "ev_c897eaf886d3",
+            "ev_f147a981c444"
+          ],
+          "insufficiently_grounded_evidence_ids": [],
+          "human_review_evidence_ids": [
+            "ev_04e2e3804006",
+            "ev_24e37a4f7a51",
+            "ev_29a514363ea0",
+            "ev_2c29a3224aff",
+            "ev_375de3eb0e23",
+            "ev_3b94b211710f",
+            "ev_46045c8c9af1",
+            "ev_5602c2104d1d",
+            "ev_67845be57010",
+            "ev_9359df199216",
+            "ev_94d4d1ea1f53",
+            "ev_9f35f352b90c",
+            "ev_bf1f2eb63276",
+            "ev_c897eaf886d3",
+            "ev_db7b3104b4f3",
+            "ev_f147a981c444",
+            "ev_f1ea4c89c68d"
+          ],
+          "has_supported_status_evidence": true,
+          "has_affirmative_low_risk_evidence": false
+        },
+        "formation": {
+          "supported_restrictive_evidence_ids": [],
+          "supported_permissive_evidence_ids": [],
+          "supported_contextual_evidence_ids": [],
+          "insufficiently_grounded_evidence_ids": [
+            "ev_8db75bc2155e"
+          ],
+          "human_review_evidence_ids": [
+            "ev_8db75bc2155e"
+          ],
+          "has_supported_status_evidence": false,
+          "has_affirmative_low_risk_evidence": false
+        },
+        "operations": {
+          "supported_restrictive_evidence_ids": [
+            "ev_890b06b50e3c"
+          ],
+          "supported_permissive_evidence_ids": [],
+          "supported_contextual_evidence_ids": [],
+          "insufficiently_grounded_evidence_ids": [],
+          "human_review_evidence_ids": [
+            "ev_890b06b50e3c"
+          ],
+          "has_supported_status_evidence": true,
+          "has_affirmative_low_risk_evidence": false
+        },
+        "resources": {
+          "supported_restrictive_evidence_ids": [],
+          "supported_permissive_evidence_ids": [],
+          "supported_contextual_evidence_ids": [],
+          "insufficiently_grounded_evidence_ids": [],
+          "human_review_evidence_ids": [],
+          "has_supported_status_evidence": false,
+          "has_affirmative_low_risk_evidence": false
+        },
+        "reputational_and_political": {
+          "supported_restrictive_evidence_ids": [
+            "ev_6a1afafe0919"
+          ],
+          "supported_permissive_evidence_ids": [],
+          "supported_contextual_evidence_ids": [
+            "ev_511271258614",
+            "ev_89adf7e75fd7"
+          ],
+          "insufficiently_grounded_evidence_ids": [],
+          "human_review_evidence_ids": [
+            "ev_511271258614",
+            "ev_6a1afafe0919",
+            "ev_89adf7e75fd7"
+          ],
+          "has_supported_status_evidence": true,
+          "has_affirmative_low_risk_evidence": false
+        }
+      }
+    },
+    {
+      "revision_id": "divergence_2026_06_30",
+      "revision_summary": {
+        "changed_categories": [
+          "governance",
+          "reputational_and_political"
+        ],
+        "narrative": "Governance: new evidence shows a mixed trajectory — partial reversals (Social Media Bill withdrawn ev_4c39e59d3828; Karki Commission report and arrests of ex-PM Oli and former Home Minister Lekhak ev_65eb5d2ce92c, ev_a096cededdbf) alongside continued restrictive dynamics (politically-motivated extension of the Karki Commission deadline ev_c9f5f6799596; HRW-documented lethal force and stalled transitional justice ev_d3a416f139a2; UN HRC recommendations ev_bff9337bdf98). Status remains high_risk pending clarity on pending NGO-specific bills and the new government's trajectory. Reputational_and_political: a new, non-human-review-flagged restrictive item (Home Minister's threat against media outlets, ev_2a8030ada4ff) reinforces the existing high_risk assessment previously resting solely on human-review-flagged evidence (ev_6a1afafe0919); contextual items (ev_09eac7a02b31, ev_6edbef837fae) add background. Formation, operations, and resources are unchanged; formation gained only contextual NGO-count data (ev_c7f56452e399) insufficient to alter unassessed status."
+      },
+      "articles": [
+        {
+          "category": "governance",
+          "status": "high_risk",
+          "status_basis_evidence_ids": [
+            "ev_37c556546e9b",
+            "ev_afdc932d5590",
+            "ev_f1ea4c89c68d",
+            "ev_9f35f352b90c",
+            "ev_bf1f2eb63276",
+            "ev_46045c8c9af1",
+            "ev_2c29a3224aff",
+            "ev_5602c2104d1d",
+            "ev_67845be57010",
+            "ev_29a514363ea0",
+            "ev_04e2e3804006",
+            "ev_24e37a4f7a51",
+            "ev_ce00924a3d43",
+            "ev_9359df199216",
+            "ev_db7b3104b4f3",
+            "ev_defa370070da",
+            "ev_d89d09767885",
+            "ev_c9f5f6799596",
+            "ev_d3a416f139a2"
+          ],
+          "summary": "Governance remains high_risk. Alongside prior legal/regulatory tightening (Media Council Bill enacted; draft NGO consolidation/surveillance bills; deadly Sept 2025 crackdown), new evidence shows a mixed trajectory: the interim/new government withdrew the controversial Social Media Bill and pursued accountability (Karki Commission findings, arrests of ex-PM Oli and former Home Minister Lekhak), but the commission's deadline was repeatedly extended for political reasons, HRW documented continued excessive/lethal force, and transitional justice progress stalled. No NGO-specific deregistration or closure is established.",
+          "claims": [
+            {
+              "text": "The constitutional right to peaceful assembly is limited to Nepali citizens, contrary to international standards.",
+              "evidence_ids": [
+                "ev_37c556546e9b"
+              ]
+            },
+            {
+              "text": "2024 protests were met with arbitrary arrests, excessive force including firearms, unlawful killings, and no accountability; Amnesty International corroborated this pattern in an April 2025 report.",
+              "evidence_ids": [
+                "ev_afdc932d5590",
+                "ev_d89d09767885"
+              ]
+            },
+            {
+              "text": "The Electronic Transactions Act 2008 has been used to arrest individuals for online criticism, and a media executive was arrested on documentation grounds seen as retaliatory.",
+              "evidence_ids": [
+                "ev_f1ea4c89c68d",
+                "ev_bf1f2eb63276"
+              ]
+            },
+            {
+              "text": "A Media Council Bill replacing the independent Press Council with a government-influenced regulator was passed in February 2025.",
+              "evidence_ids": [
+                "ev_46045c8c9af1"
+              ]
+            },
+            {
+              "text": "A Social Media Bill (Feb 2025) and repeated registration directives (May 2025) imposed registration, penalisation, and content-moderation obligations on platforms; this bill was formally withdrawn by the government on 6 February 2026.",
+              "evidence_ids": [
+                "ev_2c29a3224aff",
+                "ev_5602c2104d1d",
+                "ev_4c39e59d3828"
+              ]
+            },
+            {
+              "text": "Draft bills to consolidate NGO governing laws and dissolve the Social Welfare Council under Home Ministry control were introduced in August-September 2025.",
+              "evidence_ids": [
+                "ev_67845be57010",
+                "ev_29a514363ea0"
+              ]
+            },
+            {
+              "text": "Draft counter-intelligence and intelligence bills would expand state surveillance of communications.",
+              "evidence_ids": [
+                "ev_04e2e3804006",
+                "ev_24e37a4f7a51"
+              ]
+            },
+            {
+              "text": "A government order to block 26 unregistered social media platforms precipitated deadly Gen Z protests in September 2025; police used lethal force killing dozens, with continued lack of accountability documented into early 2026, including HRW's confirmation of excessive/lethal force and stalled transitional justice after victims rejected proposed commissioners.",
+              "evidence_ids": [
+                "ev_ce00924a3d43",
+                "ev_9359df199216",
+                "ev_db7b3104b4f3",
+                "ev_defa370070da",
+                "ev_d3a416f139a2"
+              ]
+            },
+            {
+              "text": "The Karki Commission investigating 76 protest deaths had its reporting deadline extended twice, including once explicitly over fears its findings could cause political friction around the March 2026 election.",
+              "evidence_ids": [
+                "ev_c9f5f6799596"
+              ]
+            },
+            {
+              "text": "The Karki Commission's March 2026 report confirmed 76 deaths and recommended criminal proceedings against former PM Oli, former Home Minister Lekhak, and the IGP; both officials were subsequently arrested by the new government.",
+              "evidence_ids": [
+                "ev_65eb5d2ce92c",
+                "ev_a096cededdbf"
+              ]
+            },
+            {
+              "text": "Nepal's human rights record was reviewed at the UN Human Rights Council in January 2026, with states recommending protection of assembly rights and restraint on use of force.",
+              "evidence_ids": [
+                "ev_bff9337bdf98"
+              ]
+            }
+          ],
+          "open_items": [
+            "Verify whether the draft NGO consolidation bill (ev_67845be57010, ev_29a514363ea0) advances, stalls, or is withdrawn under the new government formed in March 2026 (ev_09eac7a02b31).",
+            "Confirm whether draft surveillance/intelligence bills remain pending or have been reversed.",
+            "Track whether arrests of former PM Oli and former Home Minister Lekhak (ev_a096cededdbf) lead to convictions or are politically stalled.",
+            "Assess whether the pattern of politically-motivated delay in the Karki Commission (ev_c9f5f6799596) recurs under the new government."
+          ],
+          "barriers_to_verify": [
+            "appeal_and_judicial_review"
+          ],
+          "change_from_previous": "Status unchanged at high_risk. New evidence adds a genuine partial reversal (Social Media Bill withdrawn, ev_4c39e59d3828) and accountability steps (ev_65eb5d2ce92c, ev_a096cededdbf), but these are offset by continued restrictive dynamics (politically-motivated commission delay ev_c9f5f6799596; documented lethal force and stalled transitional justice ev_d3a416f139a2). Net assessment remains high_risk given still-pending NGO/surveillance bills and unresolved accountability outcomes.",
+          "human_review_required": true
+        },
+        {
+          "category": "formation",
+          "status": "unassessed",
+          "status_basis_evidence_ids": [],
+          "summary": "No supported restrictive or permissive evidence has been established for this line. New contextual data on NGO registration counts provides background only.",
+          "claims": [
+            {
+              "text": "As of March 2026 the Social Welfare Council's database listed 57,978 active NGOs, while a separate study estimated 25,760 NGOs were active for FY2024-25, with 119 international CSOs listed as of April 2025.",
+              "evidence_ids": [
+                "ev_c7f56452e399"
+              ]
+            }
+          ],
+          "open_items": [
+            "Establish sufficient supported evidence coverage for this line, particularly regarding the 2025 draft Social Organisation/NGO bill's specific formation-related provisions.",
+            "Determine whether registration-count discrepancies (ev_c7f56452e399) reflect administrative friction relevant to formation barriers."
+          ],
+          "barriers_to_verify": [],
+          "change_from_previous": "No status change; added contextual NGO-count evidence (ev_c7f56452e399), insufficient to support any assessed status.",
+          "human_review_required": true
+        },
+        {
+          "category": "operations",
+          "status": "high_risk",
+          "status_basis_evidence_ids": [
+            "ev_890b06b50e3c"
+          ],
+          "summary": "Provisional high_risk assessment remains based solely on a single human-review-flagged item noting that a draft NGO law raises concerns about 'increasing controls and burdensome requirements' for civil society; no new evidence was received for this category this cycle.",
+          "claims": [
+            {
+              "text": "CIVICUS reported that a draft NGO law has raised concerns about increasing controls and burdensome requirements for civil society organisations.",
+              "evidence_ids": [
+                "ev_890b06b50e3c"
+              ]
+            }
+          ],
+          "open_items": [
+            "Identify the specific operational requirements (reporting, audits, geographic/sectoral restrictions) proposed in the draft NGO law.",
+            "Determine whether this bill is the same instrument referenced in governance-category evidence (ev_67845be57010, ev_29a514363ea0), and whether it has advanced under the new government."
+          ],
+          "barriers_to_verify": [
+            "general_operating_licence_and_self_regulation"
+          ],
+          "change_from_previous": "no change; no new supported evidence received for this category.",
+          "human_review_required": true
+        },
+        {
+          "category": "resources",
+          "status": "unassessed",
+          "status_basis_evidence_ids": [],
+          "summary": "No supported evidence has been introduced for this line.",
+          "claims": [],
+          "open_items": [
+            "Establish sufficient evidence coverage for this line."
+          ],
+          "barriers_to_verify": [],
+          "change_from_previous": "no change",
+          "human_review_required": true
+        },
+        {
+          "category": "reputational_and_political",
+          "status": "high_risk",
+          "status_basis_evidence_ids": [
+            "ev_6a1afafe0919",
+            "ev_2a8030ada4ff"
+          ],
+          "summary": "High_risk assessment is now supported by two restrictive items: the previously sole human-review-flagged evidence of reprisals against a human rights defender, and a new, non-flagged item documenting a government minister's public threat to act against media outlets outside the established legal channel. Contextual evidence on political transition, civil society advocacy, and a journalist assault provide non-determinative background.",
+          "claims": [
+            {
+              "text": "UN experts expressed concern over ongoing reprisals, including intimidation and a contempt of court case, against a human rights defender opposing the Chhaya Center development.",
+              "evidence_ids": [
+                "ev_6a1afafe0919"
+              ]
+            },
+            {
+              "text": "Nepal's civic space has been rated 'Obstructed' by CIVICUS continuously from 2018 through 2024.",
+              "evidence_ids": [
+                "ev_89adf7e75fd7"
+              ]
+            },
+            {
+              "text": "A coalition of 31 civil society and digital rights organisations convened in May 2025 to advocate for transparent, inclusive digital platform regulation.",
+              "evidence_ids": [
+                "ev_511271258614"
+              ]
+            },
+            {
+              "text": "In June 2026, Home Minister Sudan Gurung publicly stated the Home Ministry would take action against media organisations deemed to insult or defame individuals, bypassing the Press Council's established jurisdiction.",
+              "evidence_ids": [
+                "ev_2a8030ada4ff"
+              ]
+            },
+            {
+              "text": "A journalist was assaulted in February 2026 while covering a political campaign, allegedly by individuals affiliated with a party volunteer force; state attribution is unclear.",
+              "evidence_ids": [
+                "ev_6edbef837fae"
+              ]
+            },
+            {
+              "text": "Nepal underwent a political transition in March 2026, forming a new government after elections held in the wake of the September 2025 protest movement.",
+              "evidence_ids": [
+                "ev_09eac7a02b31"
+              ]
+            }
+          ],
+          "open_items": [
+            "Verify whether the Home Minister's rhetoric (ev_2a8030ada4ff) translates into concrete action against media or civil society actors.",
+            "Determine state attribution for the journalist assault (ev_6edbef837fae).",
+            "Verify whether reprisal pattern against the Chhaya Center defender generalizes to NGOs beyond this single case.",
+            "Assess whether the new government's posture toward civil society/press differs materially from its predecessor."
+          ],
+          "barriers_to_verify": [
+            "public_trust_and_proactive_transparency"
+          ],
+          "change_from_previous": "Status unchanged at high_risk, but the assessment is strengthened by a new, non-human-review-flagged restrictive item (ev_2a8030ada4ff), reducing reliance on the previously sole human-review-flagged basis (ev_6a1afafe0919). New contextual evidence on political transition and a journalist assault added as background.",
+          "human_review_required": true
+        }
+      ],
+      "_raw_text": "```json\n{\n  \"revision_id\": \"divergence_2026_06_30\",\n  \"revision_summary\": {\n    \"changed_categories\": [\"governance\", \"reputational_and_political\"],\n    \"narrative\": \"Governance: new evidence shows a mixed trajectory — partial reversals (Social Media Bill withdrawn ev_4c39e59d3828; Karki Commission report and arrests of ex-PM Oli and former Home Minister Lekhak ev_65eb5d2ce92c, ev_a096cededdbf) alongside continued restrictive dynamics (politically-motivated extension of the Karki Commission deadline ev_c9f5f6799596; HRW-documented lethal force and stalled transitional justice ev_d3a416f139a2; UN HRC recommendations ev_bff9337bdf98). Status remains high_risk pending clarity on pending NGO-specific bills and the new government's trajectory. Reputational_and_political: a new, non-human-review-flagged restrictive item (Home Minister's threat against media outlets, ev_2a8030ada4ff) reinforces the existing high_risk assessment previously resting solely on human-review-flagged evidence (ev_6a1afafe0919); contextual items (ev_09eac7a02b31, ev_6edbef837fae) add background. Formation, operations, and resources are unchanged; formation gained only contextual NGO-count data (ev_c7f56452e399) insufficient to alter unassessed status.\"\n  },\n  \"articles\": [\n    {\n      \"category\": \"governance\",\n      \"status\": \"high_risk\",\n      \"status_basis_evidence_ids\": [\n        \"ev_37c556546e9b\",\n        \"ev_afdc932d5590\",\n        \"ev_f1ea4c89c68d\",\n        \"ev_9f35f352b90c\",\n        \"ev_bf1f2eb63276\",\n        \"ev_46045c8c9af1\",\n        \"ev_2c29a3224aff\",\n        \"ev_5602c2104d1d\",\n        \"ev_67845be57010\",\n        \"ev_29a514363ea0\",\n        \"ev_04e2e3804006\",\n        \"ev_24e37a4f7a51\",\n        \"ev_ce00924a3d43\",\n        \"ev_9359df199216\",\n        \"ev_db7b3104b4f3\",\n        \"ev_defa370070da\",\n        \"ev_d89d09767885\",\n        \"ev_c9f5f6799596\",\n        \"ev_d3a416f139a2\"\n      ],\n      \"summary\": \"Governance remains high_risk. Alongside prior legal/regulatory tightening (Media Council Bill enacted; draft NGO consolidation/surveillance bills; deadly Sept 2025 crackdown), new evidence shows a mixed trajectory: the interim/new government withdrew the controversial Social Media Bill and pursued accountability (Karki Commission findings, arrests of ex-PM Oli and former Home Minister Lekhak), but the commission's deadline was repeatedly extended for political reasons, HRW documented continued excessive/lethal force, and transitional justice progress stalled. No NGO-specific deregistration or closure is established.\",\n      \"claims\": [\n        {\n          \"text\": \"The constitutional right to peaceful assembly is limited to Nepali citizens, contrary to international standards.\",\n          \"evidence_ids\": [\"ev_37c556546e9b\"]\n        },\n        {\n          \"text\": \"2024 protests were met with arbitrary arrests, excessive force including firearms, unlawful killings, and no accountability; Amnesty International corroborated this pattern in an April 2025 report.\",\n          \"evidence_ids\": [\"ev_afdc932d5590\", \"ev_d89d09767885\"]\n        },\n        {\n          \"text\": \"The Electronic Transactions Act 2008 has been used to arrest individuals for online criticism, and a media executive was arrested on documentation grounds seen as retaliatory.\",\n          \"evidence_ids\": [\"ev_f1ea4c89c68d\", \"ev_bf1f2eb63276\"]\n        },\n        {\n          \"text\": \"A Media Council Bill replacing the independent Press Council with a government-influenced regulator was passed in February 2025.\",\n          \"evidence_ids\": [\"ev_46045c8c9af1\"]\n        },\n        {\n          \"text\": \"A Social Media Bill (Feb 2025) and repeated registration directives (May 2025) imposed registration, penalisation, and content-moderation obligations on platforms; this bill was formally withdrawn by the government on 6 February 2026.\",\n          \"evidence_ids\": [\"ev_2c29a3224aff\", \"ev_5602c2104d1d\", \"ev_4c39e59d3828\"]\n        },\n        {\n          \"text\": \"Draft bills to consolidate NGO governing laws and dissolve the Social Welfare Council under Home Ministry control were introduced in August-September 2025.\",\n          \"evidence_ids\": [\"ev_67845be57010\", \"ev_29a514363ea0\"]\n        },\n        {\n          \"text\": \"Draft counter-intelligence and intelligence bills would expand state surveillance of communications.\",\n          \"evidence_ids\": [\"ev_04e2e3804006\", \"ev_24e37a4f7a51\"]\n        },\n        {\n          \"text\": \"A government order to block 26 unregistered social media platforms precipitated deadly Gen Z protests in September 2025; police used lethal force killing dozens, with continued lack of accountability documented into early 2026, including HRW's confirmation of excessive/lethal force and stalled transitional justice after victims rejected proposed commissioners.\",\n          \"evidence_ids\": [\"ev_ce00924a3d43\", \"ev_9359df199216\", \"ev_db7b3104b4f3\", \"ev_defa370070da\", \"ev_d3a416f139a2\"]\n        },\n        {\n          \"text\": \"The Karki Commission investigating 76 protest deaths had its reporting deadline extended twice, including once explicitly over fears its findings could cause political friction around the March 2026 election.\",\n          \"evidence_ids\": [\"ev_c9f5f6799596\"]\n        },\n        {\n          \"text\": \"The Karki Commission's March 2026 report confirmed 76 deaths and recommended criminal proceedings against former PM Oli, former Home Minister Lekhak, and the IGP; both officials were subsequently arrested by the new government.\",\n          \"evidence_ids\": [\"ev_65eb5d2ce92c\", \"ev_a096cededdbf\"]\n        },\n        {\n          \"text\": \"Nepal's human rights record was reviewed at the UN Human Rights Council in January 2026, with states recommending protection of assembly rights and restraint on use of force.\",\n          \"evidence_ids\": [\"ev_bff9337bdf98\"]\n        }\n      ],\n      \"open_items\": [\n        \"Verify whether the draft NGO consolidation bill (ev_67845be57010, ev_29a514363ea0) advances, stalls, or is withdrawn under the new government formed in March 2026 (ev_09eac7a02b31).\",\n        \"Confirm whether draft surveillance/intelligence bills remain pending or have been reversed.\",\n        \"Track whether arrests of former PM Oli and former Home Minister Lekhak (ev_a096cededdbf) lead to convictions or are politically stalled.\",\n        \"Assess whether the pattern of politically-motivated delay in the Karki Commission (ev_c9f5f6799596) recurs under the new government.\"\n      ],\n      \"barriers_to_verify\": [\"appeal_and_judicial_review\"],\n      \"change_from_previous\": \"Status unchanged at high_risk. New evidence adds a genuine partial reversal (Social Media Bill withdrawn, ev_4c39e59d3828) and accountability steps (ev_65eb5d2ce92c, ev_a096cededdbf), but these are offset by continued restrictive dynamics (politically-motivated commission delay ev_c9f5f6799596; documented lethal force and stalled transitional justice ev_d3a416f139a2). Net assessment remains high_risk given still-pending NGO/surveillance bills and unresolved accountability outcomes.\",\n      \"human_review_required\": true\n    },\n    {\n      \"category\": \"formation\",\n      \"status\": \"unassessed\",\n      \"status_basis_evidence_ids\": [],\n      \"summary\": \"No supported restrictive or permissive evidence has been established for this line. New contextual data on NGO registration counts provides background only.\",\n      \"claims\": [\n        {\n          \"text\": \"As of March 2026 the Social Welfare Council's database listed 57,978 active NGOs, while a separate study estimated 25,760 NGOs were active for FY2024-25, with 119 international CSOs listed as of April 2025.\",\n          \"evidence_ids\": [\"ev_c7f56452e399\"]\n        }\n      ],\n      \"open_items\": [\n        \"Establish sufficient supported evidence coverage for this line, particularly regarding the 2025 draft Social Organisation/NGO bill's specific formation-related provisions.\",\n        \"Determine whether registration-count discrepancies (ev_c7f56452e399) reflect administrative friction relevant to formation barriers.\"\n      ],\n      \"barriers_to_verify\": [],\n      \"change_from_previous\": \"No status change; added contextual NGO-count evidence (ev_c7f56452e399), insufficient to support any assessed status.\",\n      \"human_review_required\": true\n    },\n    {\n      \"category\": \"operations\",\n      \"status\": \"high_risk\",\n      \"status_basis_evidence_ids\": [\"ev_890b06b50e3c\"],\n      \"summary\": \"Provisional high_risk assessment remains based solely on a single human-review-flagged item noting that a draft NGO law raises concerns about 'increasing controls and burdensome requirements' for civil society; no new evidence was received for this category this cycle.\",\n      \"claims\": [\n        {\n          \"text\": \"CIVICUS reported that a draft NGO law has raised concerns about increasing controls and burdensome requirements for civil society organisations.\",\n          \"evidence_ids\": [\"ev_890b06b50e3c\"]\n        }\n      ],\n      \"open_items\": [\n        \"Identify the specific operational requirements (reporting, audits, geographic/sectoral restrictions) proposed in the draft NGO law.\",\n        \"Determine whether this bill is the same instrument referenced in governance-category evidence (ev_67845be57010, ev_29a514363ea0), and whether it has advanced under the new government.\"\n      ],\n      \"barriers_to_verify\": [\"general_operating_licence_and_self_regulation\"],\n      \"change_from_previous\": \"no change; no new supported evidence received for this category.\",\n      \"human_review_required\": true\n    },\n    {\n      \"category\": \"resources\",\n      \"status\": \"unassessed\",\n      \"status_basis_evidence_ids\": [],\n      \"summary\": \"No supported evidence has been introduced for this line.\",\n      \"claims\": [],\n      \"open_items\": [\"Establish sufficient evidence coverage for this line.\"],\n      \"barriers_to_verify\": [],\n      \"change_from_previous\": \"no change\",\n      \"human_review_required\": true\n    },\n    {\n      \"category\": \"reputational_and_political\",\n      \"status\": \"high_risk\",\n      \"status_basis_evidence_ids\": [\"ev_6a1afafe0919\", \"ev_2a8030ada4ff\"],\n      \"summary\": \"High_risk assessment is now supported by two restrictive items: the previously sole human-review-flagged evidence of reprisals against a human rights defender, and a new, non-flagged item documenting a government minister's public threat to act against media outlets outside the established legal channel. Contextual evidence on political transition, civil society advocacy, and a journalist assault provide non-determinative background.\",\n      \"claims\": [\n        {\n          \"text\": \"UN experts expressed concern over ongoing reprisals, including intimidation and a contempt of court case, against a human rights defender opposing the Chhaya Center development.\",\n          \"evidence_ids\": [\"ev_6a1afafe0919\"]\n        },\n        {\n          \"text\": \"Nepal's civic space has been rated 'Obstructed' by CIVICUS continuously from 2018 through 2024.\",\n          \"evidence_ids\": [\"ev_89adf7e75fd7\"]\n        },\n        {\n          \"text\": \"A coalition of 31 civil society and digital rights organisations convened in May 2025 to advocate for transparent, inclusive digital platform regulation.\",\n          \"evidence_ids\": [\"ev_511271258614\"]\n        },\n        {\n          \"text\": \"In June 2026, Home Minister Sudan Gurung publicly stated the Home Ministry would take action against media organisations deemed to insult or defame individuals, bypassing the Press Council's established jurisdiction.\",\n          \"evidence_ids\": [\"ev_2a8030ada4ff\"]\n        },\n        {\n          \"text\": \"A journalist was assaulted in February 2026 while covering a political campaign, allegedly by individuals affiliated with a party volunteer force; state attribution is unclear.\",\n          \"evidence_ids\": [\"ev_6edbef837fae\"]\n        },\n        {\n          \"text\": \"Nepal underwent a political transition in March 2026, forming a new government after elections held in the wake of the September 2025 protest movement.\",\n          \"evidence_ids\": [\"ev_09eac7a02b31\"]\n        }\n      ],\n      \"open_items\": [\n        \"Verify whether the Home Minister's rhetoric (ev_2a8030ada4ff) translates into concrete action against media or civil society actors.\",\n        \"Determine state attribution for the journalist assault (ev_6edbef837fae).\",\n        \"Verify whether reprisal pattern against the Chhaya Center defender generalizes to NGOs beyond this single case.\",\n        \"Assess whether the new government's posture toward civil society/press differs materially from its predecessor.\"\n      ],\n      \"barriers_to_verify\": [\"public_trust_and_proactive_transparency\"],\n      \"change_from_previous\": \"Status unchanged at high_risk, but the assessment is strengthened by a new, non-human-review-flagged restrictive item (ev_2a8030ada4ff), reducing reliance on the previously sole human-review-flagged basis (ev_6a1afafe0919). New contextual evidence on political transition and a journalist assault added as background.\",\n      \"human_review_required\": true\n    }\n  ]\n}\n```",
+      "_repair_attempts": 0,
+      "_new_evidence_ids": [
+        "ev_09eac7a02b31",
+        "ev_c7f56452e399",
+        "ev_bff9337bdf98",
+        "ev_d3a416f139a2",
+        "ev_c9f5f6799596",
+        "ev_4c39e59d3828",
+        "ev_a15604f72443",
+        "ev_a096cededdbf",
+        "ev_65eb5d2ce92c",
+        "ev_f40dca6b5147",
+        "ev_2a8030ada4ff",
+        "ev_6edbef837fae"
+      ],
+      "_model_called": true,
+      "_coverage_by_category": {
+        "governance": {
+          "supported_restrictive_evidence_ids": [
+            "ev_04e2e3804006",
+            "ev_24e37a4f7a51",
+            "ev_29a514363ea0",
+            "ev_2c29a3224aff",
+            "ev_37c556546e9b",
+            "ev_46045c8c9af1",
+            "ev_5602c2104d1d",
+            "ev_67845be57010",
+            "ev_9359df199216",
+            "ev_9f35f352b90c",
+            "ev_afdc932d5590",
+            "ev_bf1f2eb63276",
+            "ev_c9f5f6799596",
+            "ev_ce00924a3d43",
+            "ev_d3a416f139a2",
+            "ev_d89d09767885",
+            "ev_db7b3104b4f3",
+            "ev_defa370070da",
+            "ev_f1ea4c89c68d"
+          ],
+          "supported_permissive_evidence_ids": [
+            "ev_4c39e59d3828",
+            "ev_65eb5d2ce92c",
+            "ev_a096cededdbf"
+          ],
+          "supported_contextual_evidence_ids": [
+            "ev_375de3eb0e23",
+            "ev_3b94b211710f",
+            "ev_94d4d1ea1f53",
+            "ev_bff9337bdf98",
+            "ev_c897eaf886d3",
+            "ev_f147a981c444"
+          ],
+          "insufficiently_grounded_evidence_ids": [],
+          "human_review_evidence_ids": [
+            "ev_04e2e3804006",
+            "ev_24e37a4f7a51",
+            "ev_29a514363ea0",
+            "ev_2c29a3224aff",
+            "ev_375de3eb0e23",
+            "ev_3b94b211710f",
+            "ev_46045c8c9af1",
+            "ev_5602c2104d1d",
+            "ev_67845be57010",
+            "ev_9359df199216",
+            "ev_94d4d1ea1f53",
+            "ev_9f35f352b90c",
+            "ev_bf1f2eb63276",
+            "ev_bff9337bdf98",
+            "ev_c897eaf886d3",
+            "ev_db7b3104b4f3",
+            "ev_f147a981c444",
+            "ev_f1ea4c89c68d"
+          ],
+          "has_supported_status_evidence": true,
+          "has_affirmative_low_risk_evidence": true
+        },
+        "formation": {
+          "supported_restrictive_evidence_ids": [],
+          "supported_permissive_evidence_ids": [],
+          "supported_contextual_evidence_ids": [
+            "ev_c7f56452e399"
+          ],
+          "insufficiently_grounded_evidence_ids": [
+            "ev_8db75bc2155e"
+          ],
+          "human_review_evidence_ids": [
+            "ev_8db75bc2155e",
+            "ev_c7f56452e399"
+          ],
+          "has_supported_status_evidence": false,
+          "has_affirmative_low_risk_evidence": false
+        },
+        "operations": {
+          "supported_restrictive_evidence_ids": [
+            "ev_890b06b50e3c"
+          ],
+          "supported_permissive_evidence_ids": [],
+          "supported_contextual_evidence_ids": [],
+          "insufficiently_grounded_evidence_ids": [],
+          "human_review_evidence_ids": [
+            "ev_890b06b50e3c"
+          ],
+          "has_supported_status_evidence": true,
+          "has_affirmative_low_risk_evidence": false
+        },
+        "resources": {
+          "supported_restrictive_evidence_ids": [],
+          "supported_permissive_evidence_ids": [],
+          "supported_contextual_evidence_ids": [],
+          "insufficiently_grounded_evidence_ids": [],
+          "human_review_evidence_ids": [],
+          "has_supported_status_evidence": false,
+          "has_affirmative_low_risk_evidence": false
+        },
+        "reputational_and_political": {
+          "supported_restrictive_evidence_ids": [
+            "ev_2a8030ada4ff",
+            "ev_6a1afafe0919"
+          ],
+          "supported_permissive_evidence_ids": [],
+          "supported_contextual_evidence_ids": [
+            "ev_09eac7a02b31",
+            "ev_511271258614",
+            "ev_6edbef837fae",
+            "ev_89adf7e75fd7"
+          ],
+          "insufficiently_grounded_evidence_ids": [],
+          "human_review_evidence_ids": [
+            "ev_09eac7a02b31",
+            "ev_511271258614",
+            "ev_6a1afafe0919",
+            "ev_6edbef837fae",
+            "ev_89adf7e75fd7"
+          ],
+          "has_supported_status_evidence": true,
+          "has_affirmative_low_risk_evidence": false
+        }
+      }
+    }
+  ]
+}

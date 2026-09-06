@@ -1,0 +1,967 @@
+{
+  "stage": "maintainer_filing",
+  "model": "claude-sonnet-5",
+  "timestamp": "2026-09-05T17:05:22.965588+00:00",
+  "taxonomy": {
+    "governance": [
+      "unchecked_regulator_powers",
+      "loss_of_appeal_rights",
+      "restricted_freedoms",
+      "unilateral_rule_making"
+    ],
+    "formation": [
+      "forced_reregistration",
+      "arbitrary_denial",
+      "capital_membership_bars",
+      "mandatory_state_partner"
+    ],
+    "operations": [
+      "per_project_permits",
+      "foreign_funding_activity_bans",
+      "forced_coordination",
+      "asset_surrender"
+    ],
+    "resources": [
+      "foreign_funding_approval",
+      "foreign_funding_caps_or_bans",
+      "mandatory_state_banking",
+      "punitive_taxation"
+    ],
+    "reputational_and_political": [
+      "foreign_agent_labelling",
+      "hostile_official_rhetoric",
+      "coordinated_media_campaigns",
+      "criminalising_association"
+    ]
+  },
+  "barriers": {
+    "governance": "appeal_and_judicial_review",
+    "formation": "statutory_deadlines_and_bounded_refusal",
+    "operations": "general_operating_licence_and_self_regulation",
+    "resources": "diversified_funding_and_transparent_reporting",
+    "reputational_and_political": "public_trust_and_proactive_transparency"
+  },
+  "classifications": [
+    {
+      "evidence_id": "ev_09eac7a02b31",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms a government transition following elections and prior protest-driven collapse, but does not describe any NGO-specific measure.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "reputational_and_political",
+          "subcategory": "other",
+          "taxonomy_fit": "outside_current_subcategories",
+          "polarity": "contextual",
+          "affected_barrier": "none_identified",
+          "rationale": "Describes broad political transition and civic unrest context relevant to Nepal's civic space monitoring but with no direct link to an NGO-specific restriction or protection.",
+          "supporting_text": "In March 2026, Nepal formed a new government after elections, which saw the governing coalition secure a nearly two-thirds majority.",
+          "confidence": 0.4
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "General political transition without a stated connection to NGO regulatory measures; included only as background context."
+    },
+    {
+      "evidence_id": "ev_2c7dc5372f64",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet directly states case-by-case SWC approval requirement for foreign/government funding and bank restriction absent authorization letter.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "resources",
+          "subcategory": "foreign_funding_approval",
+          "taxonomy_fit": "exact",
+          "polarity": "restrictive",
+          "affected_barrier": "diversified_funding_and_transparent_reporting",
+          "rationale": "Mandatory case-by-case government approval is required before associations can access foreign or government funding, and banks withhold funds absent this authorization.",
+          "supporting_text": "Associations must obtain case-by-case approval from the Social Welfare Council (SWC) to receive government or foreign funding.",
+          "confidence": 0.92
+        }
+      ],
+      "requires_human_review": false,
+      "review_note": ""
+    },
+    {
+      "evidence_id": "ev_c7f56452e399",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet provides NGO registration count statistics without indicating a restriction or protection.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "formation",
+          "subcategory": "other",
+          "taxonomy_fit": "outside_current_subcategories",
+          "polarity": "contextual",
+          "affected_barrier": "none_identified",
+          "rationale": "Reports on the number of active NGOs and discrepancies in counting methods; useful background but does not itself establish a restriction or protection.",
+          "supporting_text": "the Social Welfare Council's database listed 57,978 NGOs as active.",
+          "confidence": 0.5
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "Statistical data only; no direct bearing on formation barriers without further context."
+    },
+    {
+      "evidence_id": "ev_67845be57010",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms a draft bill consolidating three existing NGO laws was issued by the Ministry of Home Affairs.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "unilateral_rule_making",
+          "taxonomy_fit": "partial",
+          "polarity": "restrictive",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "A ministry-issued draft bill consolidating multiple existing NGO governing laws indicates a unilateral regulatory overhaul that could increase future exposure, though effects are not yet finalized.",
+          "supporting_text": "Nepal's Ministry of Home Affairs issued a draft NGO Registration, Regulation and Management Bill, which seeks to consolidate three existing laws governing NGOs",
+          "confidence": 0.6
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "Bill is still in draft stage and its precise regulatory impact on registration/formation is not detailed in the snippet."
+    },
+    {
+      "evidence_id": "ev_2f5b433a03ec",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet states Karki Commission recommendations could facilitate surveillance and constrain assembly mobilization.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "restricted_freedoms",
+          "taxonomy_fit": "partial",
+          "polarity": "restrictive",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "Recommended digital monitoring and surveillance capacity could constrain the exercise of assembly and civic organizing freedoms.",
+          "supporting_text": "could facilitate surveillance of organizers and further constrain the coordination and mobilization of peaceful assemblies.",
+          "confidence": 0.65
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "These are recommendations, not yet enacted measures; effect on NGOs is anticipatory."
+    },
+    {
+      "evidence_id": "ev_37c556546e9b",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms constitutional restriction limiting the assembly right to citizens, contrary to international law standards.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "restricted_freedoms",
+          "taxonomy_fit": "exact",
+          "polarity": "restrictive",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "The constitutional right to peaceful assembly is expressly limited to citizens, restricting broader civic participation rights relevant to NGO operations.",
+          "supporting_text": "This right is restricted to Nepali citizens, in contravention of international law standards on freedom of assembly.",
+          "confidence": 0.85
+        }
+      ],
+      "requires_human_review": false,
+      "review_note": ""
+    },
+    {
+      "evidence_id": "ev_89adf7e75fd7",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet shows CIVICUS rating data confirming 'Obstructed' status across multiple years, without specifying underlying causes.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "reputational_and_political",
+          "subcategory": "other",
+          "taxonomy_fit": "outside_current_subcategories",
+          "polarity": "contextual",
+          "affected_barrier": "none_identified",
+          "rationale": "A civic space rating of 'Obstructed' provides general context on the operating environment but does not itself describe a specific restrictive or permissive measure.",
+          "supporting_text": "48 | Obstructed | obstructed | obstructed | obstructed",
+          "confidence": 0.45
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "Aggregate rating without specificity on which measures drive the score."
+    },
+    {
+      "evidence_id": "ev_afdc932d5590",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet documents arbitrary arrests, excessive force including firearms, and unlawful killings against peaceful protesters with no accountability.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "restricted_freedoms",
+          "taxonomy_fit": "exact",
+          "polarity": "restrictive",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "Documented suppression of peaceful protests through arbitrary arrests, excessive force, and unlawful killings without accountability directly restricts the freedom of assembly relevant to civic space.",
+          "supporting_text": "peaceful protests have been met with arbitrary arrests and excessive force, including the use of firearms. In some cases, unlawful killings have been reported, with no one held to account.",
+          "confidence": 0.85
+        }
+      ],
+      "requires_human_review": false,
+      "review_note": ""
+    },
+    {
+      "evidence_id": "ev_f013a78c381e",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms adoption of transitional justice law but does not address NGO operational, formation, governance, resource, or reputational restrictions.",
+      "relevant": false,
+      "assignments": [],
+      "requires_human_review": false,
+      "review_note": ""
+    },
+    {
+      "evidence_id": "ev_61e22293a5ea",
+      "grounding_status": "supported",
+      "grounding_note": "UN statement welcomes the transitional justice law; content is about conflict-era accountability, not civil society restrictions.",
+      "relevant": false,
+      "assignments": [],
+      "requires_human_review": false,
+      "review_note": ""
+    },
+    {
+      "evidence_id": "ev_f1ea4c89c68d",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet documents arrests under the Electronic Transactions Act for online criticism of officials, indicating a legal tool used to restrict expression/dissent.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "restricted_freedoms",
+          "taxonomy_fit": "partial",
+          "polarity": "restrictive",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "Use of the Electronic Transactions Act to arrest and charge individuals for online criticism demonstrates a restriction on freedom of expression that could extend to civil society actors.",
+          "supporting_text": "the use of the Electronic Transactions Act 2008 to stifle dissent",
+          "confidence": 0.62
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "Focus is on individual online critics rather than NGOs specifically; fit to governance subcategory is partial."
+    },
+    {
+      "evidence_id": "ev_9f35f352b90c",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet describes repeated arrests of activists followed by a negotiated agreement suspending the protest.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "restricted_freedoms",
+          "taxonomy_fit": "partial",
+          "polarity": "restrictive",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "Repeated arrests/detention of activists protesting for justice indicate restriction on freedom of assembly, though the case ended in a negotiated agreement rather than legal reform.",
+          "supporting_text": "the group suspended their protest following a three-point agreement with the Ministry of Home Affairs",
+          "confidence": 0.55
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "Ambiguous whether the agreement represents a genuine improvement (permissive) or merely a pause in restrictive practice."
+    },
+    {
+      "evidence_id": "ev_bf1f2eb63276",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms the arrest of a media executive over citizenship documentation, viewed by press freedom groups as retaliatory.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "restricted_freedoms",
+          "taxonomy_fit": "partial",
+          "polarity": "restrictive",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "Arrest of a prominent media figure on unrelated documentation grounds, seen as retaliation for critical reporting, suggests use of legal mechanisms to suppress dissenting voices.",
+          "supporting_text": "was arrested on 21st May 2024, allegedly over supposed irregularities in the details on his citizenship card",
+          "confidence": 0.6
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "Snippet does not explicitly link arrest motive to NGO activity; retaliation claim is characterized as 'allegedly'."
+    },
+    {
+      "evidence_id": "ev_6a1afafe0919",
+      "grounding_status": "supported",
+      "grounding_note": "UN experts' statement documents reprisals, intimidation, and a contempt of court case against a human rights defender opposing a development project.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "reputational_and_political",
+          "subcategory": "criminalising_association",
+          "taxonomy_fit": "partial",
+          "polarity": "restrictive",
+          "affected_barrier": "public_trust_and_proactive_transparency",
+          "rationale": "Reports of retaliation and a contempt of court case against a defender for civic opposition indicate use of legal/political pressure against association with rights advocacy.",
+          "supporting_text": "ongoing retaliations against human rights defenders because of their opposition to the development of the Chhaya Center",
+          "confidence": 0.6
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "Case is project-specific and individual-focused; broader applicability to NGOs generally is not established in the snippet."
+    },
+    {
+      "evidence_id": "ev_f147a981c444",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms non-implementation of accepted UPR civic space recommendations but does not specify which restrictions remain unaddressed.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "other",
+          "taxonomy_fit": "outside_current_subcategories",
+          "polarity": "contextual",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "General finding that Nepal has not implemented civic-space recommendations is relevant context for ongoing risk but does not identify a specific restrictive measure.",
+          "supporting_text": "Nepal has not fully implemented any, with seven entirely unaddressed and six only partially fulfilled",
+          "confidence": 0.5
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "Aggregate finding lacks specificity to map to a single taxonomy subcategory; treated as contextual pending detail."
+    },
+    {
+      "evidence_id": "ev_2c29a3224aff",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms introduction of a bill mandating registration, penalisation, and content moderation for social media users.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "restricted_freedoms",
+          "taxonomy_fit": "partial",
+          "polarity": "restrictive",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "The bill proposes mandatory registration, penalisation, and criminal penalties for online speech, which could expand state control over civic and public expression, including that of civil society actors.",
+          "supporting_text": "designed to regulate social media platforms and users through increased registration, penalisation, and content moderation",
+          "confidence": 0.68
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "Bill targets general social media users, not NGOs specifically; potential impact on civil society is inferred rather than explicit."
+    },
+    {
+      "evidence_id": "ev_46045c8c9af1",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms passage of Media Council Bill replacing Press Council with a new regulatory body raising government-control concerns.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "unchecked_regulator_powers",
+          "taxonomy_fit": "partial",
+          "polarity": "restrictive",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "A new government-influenced regulatory body replaces an independent press oversight mechanism, raising concerns about unchecked control over media/civil-society expression.",
+          "supporting_text": "The new Media Council Bill replaces the existing Press Council responsible for upholding the standards of free press with the Media Council, a new regulatory body.",
+          "confidence": 0.62
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "Focus is on media regulation rather than NGOs specifically; fit to governance subcategory is partial and inferred."
+    },
+    {
+      "evidence_id": "ev_5602c2104d1d",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms a government warning requiring social media platforms to register under 2023 directives.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "restricted_freedoms",
+          "taxonomy_fit": "partial",
+          "polarity": "restrictive",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "Mandatory registration requirement for social media platforms under government directive restricts space for online communication that civil society relies on.",
+          "supporting_text": "issued a warning to social media platforms to register in Nepal under the Directives for Managing the Use of Social Networks, 2023",
+          "confidence": 0.55
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "Directive targets platforms, not NGOs directly; relevance to NGO operational viability is indirect."
+    },
+    {
+      "evidence_id": "ev_511271258614",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms civil society coalition issued recommendations for transparent digital regulation.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "reputational_and_political",
+          "subcategory": "other",
+          "taxonomy_fit": "outside_current_subcategories",
+          "polarity": "contextual",
+          "affected_barrier": "public_trust_and_proactive_transparency",
+          "rationale": "Shows civil society organisations actively convening and advocating for transparent regulation, indicating continued space for association and advocacy, but not itself a restriction or protection.",
+          "supporting_text": "Digital Rights Nepal convened a coalition of 31 civil society organisations, digital rights advocates, and media groups",
+          "confidence": 0.55
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "Evidence reflects civil society activity rather than a documented restriction/protection; interpretation as contextual only."
+    },
+    {
+      "evidence_id": "ev_7aca642e5c5f",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet reflects HRW statement on impunity for conflict-era crimes; general human rights/rule-of-law commentary not tied to a specific NGO restriction.",
+      "relevant": false,
+      "assignments": [],
+      "requires_human_review": false,
+      "review_note": ""
+    },
+    {
+      "evidence_id": "ev_b2d5ba622b51",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet reflects a political pledge on transitional justice mechanisms; general political development without direct NGO regulatory link.",
+      "relevant": false,
+      "assignments": [],
+      "requires_human_review": false,
+      "review_note": ""
+    },
+    {
+      "evidence_id": "ev_d89d09767885",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms Amnesty International's report on government suppression of protests via restrictions and force in 2024.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "restricted_freedoms",
+          "taxonomy_fit": "exact",
+          "polarity": "restrictive",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "Documents government suppression of protest and dissent through unlawful force and detention, restricting freedoms relevant to civil society operating space.",
+          "supporting_text": "the government suppressed criticism in 2024 by enforcing restrictions on protests, using unlawful force, and forcibly dispersing and detaining demonstrators",
+          "confidence": 0.75
+        }
+      ],
+      "requires_human_review": false,
+      "review_note": ""
+    },
+    {
+      "evidence_id": "ev_375de3eb0e23",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms delay in finalising NHRC reform bill despite prior submission.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "other",
+          "taxonomy_fit": "outside_current_subcategories",
+          "polarity": "contextual",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "Prolonged delay in finalising human rights institution reform bill affects institutional oversight capacity, relevant background for governance risk but not a direct restriction on NGOs.",
+          "supporting_text": "the government has yet to finalise the bill. Officials have no idea when the bill will be finalised and registered in Parliament.",
+          "confidence": 0.55
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "Indirect relevance; delay in NHRC reform does not directly restrict NGO operations, fit is outside current subcategories."
+    },
+    {
+      "evidence_id": "ev_04e2e3804006",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms a draft bill establishing surveillance and intelligence powers under a new counter-intelligence wing.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "restricted_freedoms",
+          "taxonomy_fit": "partial",
+          "polarity": "restrictive",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "New legal provisions for surveillance, secret missions, and evidence collection expand state monitoring capacity, which could extend to civil society and NGOs, restricting freedoms of association/expression.",
+          "supporting_text": "The bill lays out legal provisions for surveillance, secret missions, handling informants, evidence collection, interrogation, and verification",
+          "confidence": 0.6
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "Bill is broad national-security legislation; direct impact on NGOs is inferred rather than explicit in the snippet."
+    },
+    {
+      "evidence_id": "ev_24e37a4f7a51",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet directly quotes the lawmaker's warning about surveillance powers in the draft Intelligence Bill.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "restricted_freedoms",
+          "taxonomy_fit": "partial",
+          "polarity": "restrictive",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "Draft bill would allow government surveillance of communications, a general freedom restriction that could indirectly affect civil society communications, though not NGO-specific.",
+          "supporting_text": "would allow the government to control, monitor, and tap citizens' phone calls, messages, and other communications",
+          "confidence": 0.6
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "Concerns general citizen surveillance, not explicitly targeted at NGOs; fit is partial."
+    },
+    {
+      "evidence_id": "ev_8db75bc2155e",
+      "grounding_status": "partially_supported",
+      "grounding_note": "Snippet only confirms this is the third regulatory attempt; the detailed provisions (reporting, audit powers, geographic restrictions) appear in the description but not verbatim in the snippet.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "formation",
+          "subcategory": "other",
+          "taxonomy_fit": "outside_current_subcategories",
+          "polarity": "contextual",
+          "affected_barrier": "statutory_deadlines_and_bounded_refusal",
+          "rationale": "Snippet establishes a historical pattern of repeated attempts to regulate civil society but does not itself specify the restrictive content of the 2025 draft.",
+          "supporting_text": "The 2025 draft marks the third attempt to regulate social organisations under the premiership of KP Sharma Oli",
+          "confidence": 0.5
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "Specific restrictive provisions cited in description are not present in the verbatim snippet."
+    },
+    {
+      "evidence_id": "ev_29a514363ea0",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms the bill integrates NGO-related acts and dissolves the Social Welfare Council, replacing it with Home Ministry oversight.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "unilateral_rule_making",
+          "taxonomy_fit": "partial",
+          "polarity": "restrictive",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "Consolidating multiple NGO laws and dissolving the independent Social Welfare Council in favor of Home Ministry control suggests centralized, unilateral regulatory restructuring.",
+          "supporting_text": "proposes dissolving the Social Welfare Council (SWC) and replacing it with a new social welfare act under the Home Ministry",
+          "confidence": 0.6
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "Institutional restructuring implies increased control but exact subcategory fit (e.g., formation vs governance) is ambiguous."
+    },
+    {
+      "evidence_id": "ev_ce00924a3d43",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms government order to block unregistered social media platforms.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "restricted_freedoms",
+          "taxonomy_fit": "exact",
+          "polarity": "restrictive",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "Government-ordered blocking of unregistered platforms directly restricts communication and organizing freedoms relevant to civil society.",
+          "supporting_text": "the government ordered the Nepal Telecommunications Authority to block 26 unregistered social",
+          "confidence": 0.75
+        }
+      ],
+      "requires_human_review": false,
+      "review_note": ""
+    },
+    {
+      "evidence_id": "ev_9359df199216",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet documents lethal police force against protesters following the social media ban.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "restricted_freedoms",
+          "taxonomy_fit": "partial",
+          "polarity": "restrictive",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "Deadly use of force against protesters reflects severe suppression of assembly/expression freedoms relevant to civic space, though not NGO-specific.",
+          "supporting_text": "Police responded with water cannon, tear gas, rubber bullets and live ammunition, leaving at least nineteen dead and hundreds injured",
+          "confidence": 0.6
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "General human rights violation during protests, not a direct NGO-specific restriction."
+    },
+    {
+      "evidence_id": "ev_c897eaf886d3",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms formation of interim government and scheduled elections, a broad political transition.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "other",
+          "taxonomy_fit": "outside_current_subcategories",
+          "polarity": "contextual",
+          "affected_barrier": "none_identified",
+          "rationale": "Describes a political leadership transition and election timeline without directly establishing effect on any specific NGO-related restriction.",
+          "supporting_text": "swear in former Chief Justice Sushila Karki - the first woman to hold the position - as head of an interim government that would conduct fresh elections announced for 5th March 2026",
+          "confidence": 0.5
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "Broad political transition; no direct link to a documented civic space restriction."
+    },
+    {
+      "evidence_id": "ev_890b06b50e3c",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet directly states concerns about increasing controls and burdensome requirements from a draft NGO law.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "operations",
+          "subcategory": "other",
+          "taxonomy_fit": "outside_current_subcategories",
+          "polarity": "restrictive",
+          "affected_barrier": "general_operating_licence_and_self_regulation",
+          "rationale": "CIVICUS notes the draft NGO law raises concerns about increasing controls and burdensome requirements, indicating potential new operational constraints, though the specific mechanism is unspecified.",
+          "supporting_text": "a draft NGO law has raised concerns about increasing controls and burdensome requirements for civil society",
+          "confidence": 0.6
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "Vague reference to 'controls and burdensome requirements' without specifying which taxonomy subcategory applies."
+    },
+    {
+      "evidence_id": "ev_db7b3104b4f3",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms HRW findings of disproportionate police force against protesters.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "restricted_freedoms",
+          "taxonomy_fit": "partial",
+          "polarity": "restrictive",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "HRW documentation of indiscriminate police firing on protesters indicates severe restriction of assembly/expression rights affecting civic actors' safety.",
+          "supporting_text": "police indiscriminately fired on protesters multiple times over three hours",
+          "confidence": 0.6
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "Concerns general protest violence rather than an NGO-specific restriction."
+    },
+    {
+      "evidence_id": "ev_defa370070da",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet directly states Amnesty found widespread police failings, unlawful killings, and excessive/lethal force during protests.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "restricted_freedoms",
+          "taxonomy_fit": "partial",
+          "polarity": "restrictive",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "Documented unlawful killings and excessive/lethal force against peaceful protesters constitutes a severe restriction on freedom of assembly/expression, undermining the protective function of judicial accountability.",
+          "supporting_text": "widespread failings by Nepal's law enforcement agencies in policing September's protest that resulted in unlawful killings, unnecessary and excessive use of force",
+          "confidence": 0.75
+        }
+      ],
+      "requires_human_review": false,
+      "review_note": ""
+    },
+    {
+      "evidence_id": "ev_bff9337bdf98",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms UN HRC recommendations on assembly rights and use-of-force restraint, but these are recommendations rather than confirmed legal changes.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "restricted_freedoms",
+          "taxonomy_fit": "partial",
+          "polarity": "contextual",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "International recommendations urging protection of assembly rights indicate ongoing concern about restrictions but do not themselves establish a restrictive or permissive change in law.",
+          "supporting_text": "recommended to ensure the constitutional right to peaceful assembly, refrain from excessive use of force by security agencies",
+          "confidence": 0.6
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "Recommendation-based evidence; interpretive judgment needed on whether it signals future restriction or protection."
+    },
+    {
+      "evidence_id": "ev_d3a416f139a2",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms HRW documentation of excessive/lethal force and stalled transitional justice due to rejected commissioners.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "restricted_freedoms",
+          "taxonomy_fit": "partial",
+          "polarity": "restrictive",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "Documented police use of excessive/lethal force against protesters constitutes a restriction on freedom of assembly.",
+          "supporting_text": "documented police use of excessive and lethal force during protests",
+          "confidence": 0.75
+        },
+        {
+          "category": "governance",
+          "subcategory": "loss_of_appeal_rights",
+          "taxonomy_fit": "partial",
+          "polarity": "restrictive",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "Transitional justice progress stalling after victims' groups rejected unqualified commissioners represents a setback to judicial accountability mechanisms.",
+          "supporting_text": "progress on justice for human rights violations committed during the 1996-2006 conflict stalled after victims' groups rejected the commissioners appointed",
+          "confidence": 0.7
+        }
+      ],
+      "requires_human_review": false,
+      "review_note": ""
+    },
+    {
+      "evidence_id": "ev_c9f5f6799596",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms the commission's deadline was extended due to fears findings could cause friction around the election.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "loss_of_appeal_rights",
+          "taxonomy_fit": "partial",
+          "polarity": "restrictive",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "Repeated extension of the inquiry's deadline, motivated by political concerns rather than investigative need, delays accountability and access to remedy for victims.",
+          "supporting_text": "its deadline was extended for another 25 days beyond election day, for fear that its findings could be opposed by security forces or political actors and cause \"friction\"",
+          "confidence": 0.7
+        }
+      ],
+      "requires_human_review": false,
+      "review_note": ""
+    },
+    {
+      "evidence_id": "ev_4c39e59d3828",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms the government withdrew the Social Media Bill, reversing the prior restrictive proposal.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "restricted_freedoms",
+          "taxonomy_fit": "partial",
+          "polarity": "permissive",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "Formal withdrawal of a bill that would have restricted social media platforms reverses a previously proposed restriction on freedom of expression.",
+          "supporting_text": "The government of Nepal has moved to withdraw the controversial Social Media Bill from the National Assembly... reverses a proposal introduced by the previous government",
+          "confidence": 0.8
+        }
+      ],
+      "requires_human_review": false,
+      "review_note": ""
+    },
+    {
+      "evidence_id": "ev_a15604f72443",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms an election result but does not describe any specific change to NGO-related restrictions or protections.",
+      "relevant": false,
+      "assignments": [],
+      "requires_human_review": false,
+      "review_note": "General political/election news without a direct link to a specific civic-space restriction or protection."
+    },
+    {
+      "evidence_id": "ev_a096cededdbf",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms arrests of former PM and Home Minister following commission recommendations on the protest crackdown.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "loss_of_appeal_rights",
+          "taxonomy_fit": "partial",
+          "polarity": "permissive",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "Arrests of senior officials following commission findings demonstrate the judicial accountability mechanism functioning, reversing prior impunity concerns.",
+          "supporting_text": "former prime minister K.P. Sharma Oli was arrested the day after Shah's swearing-in ceremony, following recommendations from a commission set up to investigate the deadly police crackdown",
+          "confidence": 0.75
+        }
+      ],
+      "requires_human_review": false,
+      "review_note": ""
+    },
+    {
+      "evidence_id": "ev_65eb5d2ce92c",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms the Karki Commission's findings and recommendations for criminal proceedings against officials over protest deaths.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "loss_of_appeal_rights",
+          "taxonomy_fit": "partial",
+          "polarity": "permissive",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "The commission's formal findings and recommendation of criminal proceedings against implicated officials represent an active judicial accountability process, supporting the appeal/judicial review barrier.",
+          "supporting_text": "It recommended criminal proceedings against then-Prime Minister KP Sharma Oli, Home Minister Ramesh Lekhak, and IGP Chandra Kuber Khapung for negligence leading to deaths.",
+          "confidence": 0.75
+        }
+      ],
+      "requires_human_review": false,
+      "review_note": ""
+    },
+    {
+      "evidence_id": "ev_f40dca6b5147",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms NHRC recommendations for investigations into individuals including sitting MPs regarding protest unrest.",
+      "relevant": false,
+      "assignments": [],
+      "requires_human_review": false,
+      "review_note": "Concerns accountability for protest violence and MP conduct; no direct connection to NGO formation, governance, operations, resources, or reputational restrictions on civil society."
+    },
+    {
+      "evidence_id": "ev_2a8030ada4ff",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet directly quotes Home Minister's statement threatening action against media outlets outside the established legal jurisdiction of the Press Council.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "reputational_and_political",
+          "subcategory": "hostile_official_rhetoric",
+          "taxonomy_fit": "exact",
+          "polarity": "restrictive",
+          "affected_barrier": "public_trust_and_proactive_transparency",
+          "rationale": "A government minister publicly threatened punitive action against media outlets, bypassing the existing legal channel (Press Council), indicating an escalation of official pressure on civic/press actors.",
+          "supporting_text": "Home Minister Sudan Gurung in June 2026 said that the Home Ministry would take action against media organisations that insult or defame individuals",
+          "confidence": 0.72
+        }
+      ],
+      "requires_human_review": false,
+      "review_note": ""
+    },
+    {
+      "evidence_id": "ev_6edbef837fae",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms a journalist was assaulted while covering a political campaign, allegedly linked to a party-affiliated group.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "reputational_and_political",
+          "subcategory": "other",
+          "taxonomy_fit": "outside_current_subcategories",
+          "polarity": "contextual",
+          "affected_barrier": "public_trust_and_proactive_transparency",
+          "rationale": "Physical assault on a journalist during political coverage indicates a hostile environment for press/civic actors, but the perpetrators are described as party-affiliated individuals rather than a state action or policy, so it does not clearly establish a state-driven restrictive measure.",
+          "supporting_text": "Arjun Acharya... was assaulted. This occurred on 26 February (February 26), while covering the election activities of K. P. Sharma Oli.",
+          "confidence": 0.55
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "Ambiguous whether this constitutes a state-attributable restriction or isolated political violence; taxonomy fit is uncertain."
+    },
+    {
+      "evidence_id": "ev_3b94b211710f",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms a draft NHRC Act was submitted to the PMO but remains unfinalised, under evaluation at the Ministry of Finance.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "other",
+          "taxonomy_fit": "outside_current_subcategories",
+          "polarity": "contextual",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "Describes a pending legislative reform process for the national human rights body without confirming either a restriction or a protective outcome; the bill's fate remains undetermined.",
+          "supporting_text": "the government has yet to finalise it. The bill is under evaluation at the Ministry of Finance.",
+          "confidence": 0.6
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "Status update only; no clear restrictive or permissive effect established yet."
+    },
+    {
+      "evidence_id": "ev_94d4d1ea1f53",
+      "grounding_status": "supported",
+      "grounding_note": "Snippet confirms advocates questioned the accuracy of Nepal's UN report claims regarding NHRC autonomy and the draft Act.",
+      "relevant": true,
+      "assignments": [
+        {
+          "category": "governance",
+          "subcategory": "other",
+          "taxonomy_fit": "outside_current_subcategories",
+          "polarity": "contextual",
+          "affected_barrier": "appeal_and_judicial_review",
+          "rationale": "Highlights a discrepancy between official claims of reform progress and advocates' assessment, providing interpretive context on institutional credibility rather than a specific restrictive or permissive change.",
+          "supporting_text": "the claims in the report presented before the United Nations are exaggerated, say those working in human rights advocacy.",
+          "confidence": 0.6
+        }
+      ],
+      "requires_human_review": true,
+      "review_note": "General credibility dispute over reported reforms; does not establish a concrete restriction or protection."
+    }
+  ],
+  "batches": [
+    {
+      "input_ids": [
+        "ev_09eac7a02b31",
+        "ev_2c7dc5372f64",
+        "ev_c7f56452e399",
+        "ev_67845be57010",
+        "ev_2f5b433a03ec",
+        "ev_37c556546e9b",
+        "ev_89adf7e75fd7",
+        "ev_afdc932d5590"
+      ],
+      "raw_text": "```json\n{\n  \"classifications\": [\n    {\n      \"evidence_id\": \"ev_09eac7a02b31\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms a government transition following elections and prior protest-driven collapse, but does not describe any NGO-specific measure.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"reputational_and_political\",\n          \"subcategory\": \"other\",\n          \"taxonomy_fit\": \"outside_current_subcategories\",\n          \"polarity\": \"contextual\",\n          \"affected_barrier\": \"none_identified\",\n          \"rationale\": \"Describes broad political transition and civic unrest context relevant to Nepal's civic space monitoring but with no direct link to an NGO-specific restriction or protection.\",\n          \"supporting_text\": \"In March 2026, Nepal formed a new government after elections, which saw the governing coalition secure a nearly two-thirds majority.\",\n          \"confidence\": 0.4\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"General political transition without a stated connection to NGO regulatory measures; included only as background context.\"\n    },\n    {\n      \"evidence_id\": \"ev_2c7dc5372f64\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet directly states case-by-case SWC approval requirement for foreign/government funding and bank restriction absent authorization letter.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"resources\",\n          \"subcategory\": \"foreign_funding_approval\",\n          \"taxonomy_fit\": \"exact\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"diversified_funding_and_transparent_reporting\",\n          \"rationale\": \"Mandatory case-by-case government approval is required before associations can access foreign or government funding, and banks withhold funds absent this authorization.\",\n          \"supporting_text\": \"Associations must obtain case-by-case approval from the Social Welfare Council (SWC) to receive government or foreign funding.\",\n          \"confidence\": 0.92\n        }\n      ],\n      \"requires_human_review\": false,\n      \"review_note\": \"\"\n    },\n    {\n      \"evidence_id\": \"ev_c7f56452e399\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet provides NGO registration count statistics without indicating a restriction or protection.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"formation\",\n          \"subcategory\": \"other\",\n          \"taxonomy_fit\": \"outside_current_subcategories\",\n          \"polarity\": \"contextual\",\n          \"affected_barrier\": \"none_identified\",\n          \"rationale\": \"Reports on the number of active NGOs and discrepancies in counting methods; useful background but does not itself establish a restriction or protection.\",\n          \"supporting_text\": \"the Social Welfare Council's database listed 57,978 NGOs as active.\",\n          \"confidence\": 0.5\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"Statistical data only; no direct bearing on formation barriers without further context.\"\n    },\n    {\n      \"evidence_id\": \"ev_67845be57010\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms a draft bill consolidating three existing NGO laws was issued by the Ministry of Home Affairs.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"unilateral_rule_making\",\n          \"taxonomy_fit\": \"partial\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"A ministry-issued draft bill consolidating multiple existing NGO governing laws indicates a unilateral regulatory overhaul that could increase future exposure, though effects are not yet finalized.\",\n          \"supporting_text\": \"Nepal's Ministry of Home Affairs issued a draft NGO Registration, Regulation and Management Bill, which seeks to consolidate three existing laws governing NGOs\",\n          \"confidence\": 0.6\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"Bill is still in draft stage and its precise regulatory impact on registration/formation is not detailed in the snippet.\"\n    },\n    {\n      \"evidence_id\": \"ev_2f5b433a03ec\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet states Karki Commission recommendations could facilitate surveillance and constrain assembly mobilization.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"restricted_freedoms\",\n          \"taxonomy_fit\": \"partial\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"Recommended digital monitoring and surveillance capacity could constrain the exercise of assembly and civic organizing freedoms.\",\n          \"supporting_text\": \"could facilitate surveillance of organizers and further constrain the coordination and mobilization of peaceful assemblies.\",\n          \"confidence\": 0.65\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"These are recommendations, not yet enacted measures; effect on NGOs is anticipatory.\"\n    },\n    {\n      \"evidence_id\": \"ev_37c556546e9b\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms constitutional restriction limiting the assembly right to citizens, contrary to international law standards.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"restricted_freedoms\",\n          \"taxonomy_fit\": \"exact\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"The constitutional right to peaceful assembly is expressly limited to citizens, restricting broader civic participation rights relevant to NGO operations.\",\n          \"supporting_text\": \"This right is restricted to Nepali citizens, in contravention of international law standards on freedom of assembly.\",\n          \"confidence\": 0.85\n        }\n      ],\n      \"requires_human_review\": false,\n      \"review_note\": \"\"\n    },\n    {\n      \"evidence_id\": \"ev_89adf7e75fd7\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet shows CIVICUS rating data confirming 'Obstructed' status across multiple years, without specifying underlying causes.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"reputational_and_political\",\n          \"subcategory\": \"other\",\n          \"taxonomy_fit\": \"outside_current_subcategories\",\n          \"polarity\": \"contextual\",\n          \"affected_barrier\": \"none_identified\",\n          \"rationale\": \"A civic space rating of 'Obstructed' provides general context on the operating environment but does not itself describe a specific restrictive or permissive measure.\",\n          \"supporting_text\": \"48 | Obstructed | obstructed | obstructed | obstructed\",\n          \"confidence\": 0.45\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"Aggregate rating without specificity on which measures drive the score.\"\n    },\n    {\n      \"evidence_id\": \"ev_afdc932d5590\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet documents arbitrary arrests, excessive force including firearms, and unlawful killings against peaceful protesters with no accountability.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"restricted_freedoms\",\n          \"taxonomy_fit\": \"exact\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"Documented suppression of peaceful protests through arbitrary arrests, excessive force, and unlawful killings without accountability directly restricts the freedom of assembly relevant to civic space.\",\n          \"supporting_text\": \"peaceful protests have been met with arbitrary arrests and excessive force, including the use of firearms. In some cases, unlawful killings have been reported, with no one held to account.\",\n          \"confidence\": 0.85\n        }\n      ],\n      \"requires_human_review\": false,\n      \"review_note\": \"\"\n    }\n  ]\n}\n```"
+    },
+    {
+      "input_ids": [
+        "ev_f013a78c381e",
+        "ev_61e22293a5ea",
+        "ev_f1ea4c89c68d",
+        "ev_9f35f352b90c",
+        "ev_bf1f2eb63276",
+        "ev_6a1afafe0919",
+        "ev_f147a981c444",
+        "ev_2c29a3224aff"
+      ],
+      "raw_text": "```json\n{\n  \"classifications\": [\n    {\n      \"evidence_id\": \"ev_f013a78c381e\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms adoption of transitional justice law but does not address NGO operational, formation, governance, resource, or reputational restrictions.\",\n      \"relevant\": false,\n      \"assignments\": [],\n      \"requires_human_review\": false,\n      \"review_note\": \"\"\n    },\n    {\n      \"evidence_id\": \"ev_61e22293a5ea\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"UN statement welcomes the transitional justice law; content is about conflict-era accountability, not civil society restrictions.\",\n      \"relevant\": false,\n      \"assignments\": [],\n      \"requires_human_review\": false,\n      \"review_note\": \"\"\n    },\n    {\n      \"evidence_id\": \"ev_f1ea4c89c68d\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet documents arrests under the Electronic Transactions Act for online criticism of officials, indicating a legal tool used to restrict expression/dissent.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"restricted_freedoms\",\n          \"taxonomy_fit\": \"partial\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"Use of the Electronic Transactions Act to arrest and charge individuals for online criticism demonstrates a restriction on freedom of expression that could extend to civil society actors.\",\n          \"supporting_text\": \"the use of the Electronic Transactions Act 2008 to stifle dissent\",\n          \"confidence\": 0.62\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"Focus is on individual online critics rather than NGOs specifically; fit to governance subcategory is partial.\"\n    },\n    {\n      \"evidence_id\": \"ev_9f35f352b90c\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet describes repeated arrests of activists followed by a negotiated agreement suspending the protest.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"restricted_freedoms\",\n          \"taxonomy_fit\": \"partial\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"Repeated arrests/detention of activists protesting for justice indicate restriction on freedom of assembly, though the case ended in a negotiated agreement rather than legal reform.\",\n          \"supporting_text\": \"the group suspended their protest following a three-point agreement with the Ministry of Home Affairs\",\n          \"confidence\": 0.55\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"Ambiguous whether the agreement represents a genuine improvement (permissive) or merely a pause in restrictive practice.\"\n    },\n    {\n      \"evidence_id\": \"ev_bf1f2eb63276\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms the arrest of a media executive over citizenship documentation, viewed by press freedom groups as retaliatory.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"restricted_freedoms\",\n          \"taxonomy_fit\": \"partial\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"Arrest of a prominent media figure on unrelated documentation grounds, seen as retaliation for critical reporting, suggests use of legal mechanisms to suppress dissenting voices.\",\n          \"supporting_text\": \"was arrested on 21st May 2024, allegedly over supposed irregularities in the details on his citizenship card\",\n          \"confidence\": 0.6\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"Snippet does not explicitly link arrest motive to NGO activity; retaliation claim is characterized as 'allegedly'.\"\n    },\n    {\n      \"evidence_id\": \"ev_6a1afafe0919\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"UN experts' statement documents reprisals, intimidation, and a contempt of court case against a human rights defender opposing a development project.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"reputational_and_political\",\n          \"subcategory\": \"criminalising_association\",\n          \"taxonomy_fit\": \"partial\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"public_trust_and_proactive_transparency\",\n          \"rationale\": \"Reports of retaliation and a contempt of court case against a defender for civic opposition indicate use of legal/political pressure against association with rights advocacy.\",\n          \"supporting_text\": \"ongoing retaliations against human rights defenders because of their opposition to the development of the Chhaya Center\",\n          \"confidence\": 0.6\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"Case is project-specific and individual-focused; broader applicability to NGOs generally is not established in the snippet.\"\n    },\n    {\n      \"evidence_id\": \"ev_f147a981c444\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms non-implementation of accepted UPR civic space recommendations but does not specify which restrictions remain unaddressed.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"other\",\n          \"taxonomy_fit\": \"outside_current_subcategories\",\n          \"polarity\": \"contextual\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"General finding that Nepal has not implemented civic-space recommendations is relevant context for ongoing risk but does not identify a specific restrictive measure.\",\n          \"supporting_text\": \"Nepal has not fully implemented any, with seven entirely unaddressed and six only partially fulfilled\",\n          \"confidence\": 0.5\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"Aggregate finding lacks specificity to map to a single taxonomy subcategory; treated as contextual pending detail.\"\n    },\n    {\n      \"evidence_id\": \"ev_2c29a3224aff\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms introduction of a bill mandating registration, penalisation, and content moderation for social media users.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"restricted_freedoms\",\n          \"taxonomy_fit\": \"partial\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"The bill proposes mandatory registration, penalisation, and criminal penalties for online speech, which could expand state control over civic and public expression, including that of civil society actors.\",\n          \"supporting_text\": \"designed to regulate social media platforms and users through increased registration, penalisation, and content moderation\",\n          \"confidence\": 0.68\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"Bill targets general social media users, not NGOs specifically; potential impact on civil society is inferred rather than explicit.\"\n    }\n  ]\n}\n```"
+    },
+    {
+      "input_ids": [
+        "ev_46045c8c9af1",
+        "ev_5602c2104d1d",
+        "ev_511271258614",
+        "ev_7aca642e5c5f",
+        "ev_b2d5ba622b51",
+        "ev_d89d09767885",
+        "ev_375de3eb0e23",
+        "ev_04e2e3804006"
+      ],
+      "raw_text": "```json\n{\n  \"classifications\": [\n    {\n      \"evidence_id\": \"ev_46045c8c9af1\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms passage of Media Council Bill replacing Press Council with a new regulatory body raising government-control concerns.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"unchecked_regulator_powers\",\n          \"taxonomy_fit\": \"partial\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"A new government-influenced regulatory body replaces an independent press oversight mechanism, raising concerns about unchecked control over media/civil-society expression.\",\n          \"supporting_text\": \"The new Media Council Bill replaces the existing Press Council responsible for upholding the standards of free press with the Media Council, a new regulatory body.\",\n          \"confidence\": 0.62\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"Focus is on media regulation rather than NGOs specifically; fit to governance subcategory is partial and inferred.\"\n    },\n    {\n      \"evidence_id\": \"ev_5602c2104d1d\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms a government warning requiring social media platforms to register under 2023 directives.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"restricted_freedoms\",\n          \"taxonomy_fit\": \"partial\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"Mandatory registration requirement for social media platforms under government directive restricts space for online communication that civil society relies on.\",\n          \"supporting_text\": \"issued a warning to social media platforms to register in Nepal under the Directives for Managing the Use of Social Networks, 2023\",\n          \"confidence\": 0.55\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"Directive targets platforms, not NGOs directly; relevance to NGO operational viability is indirect.\"\n    },\n    {\n      \"evidence_id\": \"ev_511271258614\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms civil society coalition issued recommendations for transparent digital regulation.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"reputational_and_political\",\n          \"subcategory\": \"other\",\n          \"taxonomy_fit\": \"outside_current_subcategories\",\n          \"polarity\": \"contextual\",\n          \"affected_barrier\": \"public_trust_and_proactive_transparency\",\n          \"rationale\": \"Shows civil society organisations actively convening and advocating for transparent regulation, indicating continued space for association and advocacy, but not itself a restriction or protection.\",\n          \"supporting_text\": \"Digital Rights Nepal convened a coalition of 31 civil society organisations, digital rights advocates, and media groups\",\n          \"confidence\": 0.55\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"Evidence reflects civil society activity rather than a documented restriction/protection; interpretation as contextual only.\"\n    },\n    {\n      \"evidence_id\": \"ev_7aca642e5c5f\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet reflects HRW statement on impunity for conflict-era crimes; general human rights/rule-of-law commentary not tied to a specific NGO restriction.\",\n      \"relevant\": false,\n      \"assignments\": [],\n      \"requires_human_review\": false,\n      \"review_note\": \"\"\n    },\n    {\n      \"evidence_id\": \"ev_b2d5ba622b51\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet reflects a political pledge on transitional justice mechanisms; general political development without direct NGO regulatory link.\",\n      \"relevant\": false,\n      \"assignments\": [],\n      \"requires_human_review\": false,\n      \"review_note\": \"\"\n    },\n    {\n      \"evidence_id\": \"ev_d89d09767885\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms Amnesty International's report on government suppression of protests via restrictions and force in 2024.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"restricted_freedoms\",\n          \"taxonomy_fit\": \"exact\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"Documents government suppression of protest and dissent through unlawful force and detention, restricting freedoms relevant to civil society operating space.\",\n          \"supporting_text\": \"the government suppressed criticism in 2024 by enforcing restrictions on protests, using unlawful force, and forcibly dispersing and detaining demonstrators\",\n          \"confidence\": 0.75\n        }\n      ],\n      \"requires_human_review\": false,\n      \"review_note\": \"\"\n    },\n    {\n      \"evidence_id\": \"ev_375de3eb0e23\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms delay in finalising NHRC reform bill despite prior submission.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"other\",\n          \"taxonomy_fit\": \"outside_current_subcategories\",\n          \"polarity\": \"contextual\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"Prolonged delay in finalising human rights institution reform bill affects institutional oversight capacity, relevant background for governance risk but not a direct restriction on NGOs.\",\n          \"supporting_text\": \"the government has yet to finalise the bill. Officials have no idea when the bill will be finalised and registered in Parliament.\",\n          \"confidence\": 0.55\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"Indirect relevance; delay in NHRC reform does not directly restrict NGO operations, fit is outside current subcategories.\"\n    },\n    {\n      \"evidence_id\": \"ev_04e2e3804006\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms a draft bill establishing surveillance and intelligence powers under a new counter-intelligence wing.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"restricted_freedoms\",\n          \"taxonomy_fit\": \"partial\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"New legal provisions for surveillance, secret missions, and evidence collection expand state monitoring capacity, which could extend to civil society and NGOs, restricting freedoms of association/expression.\",\n          \"supporting_text\": \"The bill lays out legal provisions for surveillance, secret missions, handling informants, evidence collection, interrogation, and verification\",\n          \"confidence\": 0.6\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"Bill is broad national-security legislation; direct impact on NGOs is inferred rather than explicit in the snippet.\"\n    }\n  ]\n}\n```"
+    },
+    {
+      "input_ids": [
+        "ev_24e37a4f7a51",
+        "ev_8db75bc2155e",
+        "ev_29a514363ea0",
+        "ev_ce00924a3d43",
+        "ev_9359df199216",
+        "ev_c897eaf886d3",
+        "ev_890b06b50e3c",
+        "ev_db7b3104b4f3"
+      ],
+      "raw_text": "```json\n{\n  \"classifications\": [\n    {\n      \"evidence_id\": \"ev_24e37a4f7a51\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet directly quotes the lawmaker's warning about surveillance powers in the draft Intelligence Bill.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"restricted_freedoms\",\n          \"taxonomy_fit\": \"partial\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"Draft bill would allow government surveillance of communications, a general freedom restriction that could indirectly affect civil society communications, though not NGO-specific.\",\n          \"supporting_text\": \"would allow the government to control, monitor, and tap citizens' phone calls, messages, and other communications\",\n          \"confidence\": 0.6\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"Concerns general citizen surveillance, not explicitly targeted at NGOs; fit is partial.\"\n    },\n    {\n      \"evidence_id\": \"ev_8db75bc2155e\",\n      \"grounding_status\": \"partially_supported\",\n      \"grounding_note\": \"Snippet only confirms this is the third regulatory attempt; the detailed provisions (reporting, audit powers, geographic restrictions) appear in the description but not verbatim in the snippet.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"formation\",\n          \"subcategory\": \"other\",\n          \"taxonomy_fit\": \"outside_current_subcategories\",\n          \"polarity\": \"contextual\",\n          \"affected_barrier\": \"statutory_deadlines_and_bounded_refusal\",\n          \"rationale\": \"Snippet establishes a historical pattern of repeated attempts to regulate civil society but does not itself specify the restrictive content of the 2025 draft.\",\n          \"supporting_text\": \"The 2025 draft marks the third attempt to regulate social organisations under the premiership of KP Sharma Oli\",\n          \"confidence\": 0.5\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"Specific restrictive provisions cited in description are not present in the verbatim snippet.\"\n    },\n    {\n      \"evidence_id\": \"ev_29a514363ea0\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms the bill integrates NGO-related acts and dissolves the Social Welfare Council, replacing it with Home Ministry oversight.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"unilateral_rule_making\",\n          \"taxonomy_fit\": \"partial\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"Consolidating multiple NGO laws and dissolving the independent Social Welfare Council in favor of Home Ministry control suggests centralized, unilateral regulatory restructuring.\",\n          \"supporting_text\": \"proposes dissolving the Social Welfare Council (SWC) and replacing it with a new social welfare act under the Home Ministry\",\n          \"confidence\": 0.6\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"Institutional restructuring implies increased control but exact subcategory fit (e.g., formation vs governance) is ambiguous.\"\n    },\n    {\n      \"evidence_id\": \"ev_ce00924a3d43\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms government order to block unregistered social media platforms.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"restricted_freedoms\",\n          \"taxonomy_fit\": \"exact\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"Government-ordered blocking of unregistered platforms directly restricts communication and organizing freedoms relevant to civil society.\",\n          \"supporting_text\": \"the government ordered the Nepal Telecommunications Authority to block 26 unregistered social\",\n          \"confidence\": 0.75\n        }\n      ],\n      \"requires_human_review\": false,\n      \"review_note\": \"\"\n    },\n    {\n      \"evidence_id\": \"ev_9359df199216\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet documents lethal police force against protesters following the social media ban.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"restricted_freedoms\",\n          \"taxonomy_fit\": \"partial\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"Deadly use of force against protesters reflects severe suppression of assembly/expression freedoms relevant to civic space, though not NGO-specific.\",\n          \"supporting_text\": \"Police responded with water cannon, tear gas, rubber bullets and live ammunition, leaving at least nineteen dead and hundreds injured\",\n          \"confidence\": 0.6\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"General human rights violation during protests, not a direct NGO-specific restriction.\"\n    },\n    {\n      \"evidence_id\": \"ev_c897eaf886d3\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms formation of interim government and scheduled elections, a broad political transition.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"other\",\n          \"taxonomy_fit\": \"outside_current_subcategories\",\n          \"polarity\": \"contextual\",\n          \"affected_barrier\": \"none_identified\",\n          \"rationale\": \"Describes a political leadership transition and election timeline without directly establishing effect on any specific NGO-related restriction.\",\n          \"supporting_text\": \"swear in former Chief Justice Sushila Karki - the first woman to hold the position - as head of an interim government that would conduct fresh elections announced for 5th March 2026\",\n          \"confidence\": 0.5\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"Broad political transition; no direct link to a documented civic space restriction.\"\n    },\n    {\n      \"evidence_id\": \"ev_890b06b50e3c\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet directly states concerns about increasing controls and burdensome requirements from a draft NGO law.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"operations\",\n          \"subcategory\": \"other\",\n          \"taxonomy_fit\": \"outside_current_subcategories\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"general_operating_licence_and_self_regulation\",\n          \"rationale\": \"CIVICUS notes the draft NGO law raises concerns about increasing controls and burdensome requirements, indicating potential new operational constraints, though the specific mechanism is unspecified.\",\n          \"supporting_text\": \"a draft NGO law has raised concerns about increasing controls and burdensome requirements for civil society\",\n          \"confidence\": 0.6\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"Vague reference to 'controls and burdensome requirements' without specifying which taxonomy subcategory applies.\"\n    },\n    {\n      \"evidence_id\": \"ev_db7b3104b4f3\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms HRW findings of disproportionate police force against protesters.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"restricted_freedoms\",\n          \"taxonomy_fit\": \"partial\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"HRW documentation of indiscriminate police firing on protesters indicates severe restriction of assembly/expression rights affecting civic actors' safety.\",\n          \"supporting_text\": \"police indiscriminately fired on protesters multiple times over three hours\",\n          \"confidence\": 0.6\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"Concerns general protest violence rather than an NGO-specific restriction.\"\n    }\n  ]\n}\n```"
+    },
+    {
+      "input_ids": [
+        "ev_defa370070da",
+        "ev_bff9337bdf98",
+        "ev_d3a416f139a2",
+        "ev_c9f5f6799596",
+        "ev_4c39e59d3828",
+        "ev_a15604f72443",
+        "ev_a096cededdbf",
+        "ev_65eb5d2ce92c"
+      ],
+      "raw_text": "```json\n{\n  \"classifications\": [\n    {\n      \"evidence_id\": \"ev_defa370070da\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet directly states Amnesty found widespread police failings, unlawful killings, and excessive/lethal force during protests.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"restricted_freedoms\",\n          \"taxonomy_fit\": \"partial\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"Documented unlawful killings and excessive/lethal force against peaceful protesters constitutes a severe restriction on freedom of assembly/expression, undermining the protective function of judicial accountability.\",\n          \"supporting_text\": \"widespread failings by Nepal's law enforcement agencies in policing September's protest that resulted in unlawful killings, unnecessary and excessive use of force\",\n          \"confidence\": 0.75\n        }\n      ],\n      \"requires_human_review\": false,\n      \"review_note\": \"\"\n    },\n    {\n      \"evidence_id\": \"ev_bff9337bdf98\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms UN HRC recommendations on assembly rights and use-of-force restraint, but these are recommendations rather than confirmed legal changes.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"restricted_freedoms\",\n          \"taxonomy_fit\": \"partial\",\n          \"polarity\": \"contextual\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"International recommendations urging protection of assembly rights indicate ongoing concern about restrictions but do not themselves establish a restrictive or permissive change in law.\",\n          \"supporting_text\": \"recommended to ensure the constitutional right to peaceful assembly, refrain from excessive use of force by security agencies\",\n          \"confidence\": 0.6\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"Recommendation-based evidence; interpretive judgment needed on whether it signals future restriction or protection.\"\n    },\n    {\n      \"evidence_id\": \"ev_d3a416f139a2\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms HRW documentation of excessive/lethal force and stalled transitional justice due to rejected commissioners.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"restricted_freedoms\",\n          \"taxonomy_fit\": \"partial\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"Documented police use of excessive/lethal force against protesters constitutes a restriction on freedom of assembly.\",\n          \"supporting_text\": \"documented police use of excessive and lethal force during protests\",\n          \"confidence\": 0.75\n        },\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"loss_of_appeal_rights\",\n          \"taxonomy_fit\": \"partial\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"Transitional justice progress stalling after victims' groups rejected unqualified commissioners represents a setback to judicial accountability mechanisms.\",\n          \"supporting_text\": \"progress on justice for human rights violations committed during the 1996-2006 conflict stalled after victims' groups rejected the commissioners appointed\",\n          \"confidence\": 0.7\n        }\n      ],\n      \"requires_human_review\": false,\n      \"review_note\": \"\"\n    },\n    {\n      \"evidence_id\": \"ev_c9f5f6799596\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms the commission's deadline was extended due to fears findings could cause friction around the election.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"loss_of_appeal_rights\",\n          \"taxonomy_fit\": \"partial\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"Repeated extension of the inquiry's deadline, motivated by political concerns rather than investigative need, delays accountability and access to remedy for victims.\",\n          \"supporting_text\": \"its deadline was extended for another 25 days beyond election day, for fear that its findings could be opposed by security forces or political actors and cause \\\"friction\\\"\",\n          \"confidence\": 0.7\n        }\n      ],\n      \"requires_human_review\": false,\n      \"review_note\": \"\"\n    },\n    {\n      \"evidence_id\": \"ev_4c39e59d3828\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms the government withdrew the Social Media Bill, reversing the prior restrictive proposal.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"restricted_freedoms\",\n          \"taxonomy_fit\": \"partial\",\n          \"polarity\": \"permissive\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"Formal withdrawal of a bill that would have restricted social media platforms reverses a previously proposed restriction on freedom of expression.\",\n          \"supporting_text\": \"The government of Nepal has moved to withdraw the controversial Social Media Bill from the National Assembly... reverses a proposal introduced by the previous government\",\n          \"confidence\": 0.8\n        }\n      ],\n      \"requires_human_review\": false,\n      \"review_note\": \"\"\n    },\n    {\n      \"evidence_id\": \"ev_a15604f72443\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms an election result but does not describe any specific change to NGO-related restrictions or protections.\",\n      \"relevant\": false,\n      \"assignments\": [],\n      \"requires_human_review\": false,\n      \"review_note\": \"General political/election news without a direct link to a specific civic-space restriction or protection.\"\n    },\n    {\n      \"evidence_id\": \"ev_a096cededdbf\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms arrests of former PM and Home Minister following commission recommendations on the protest crackdown.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"loss_of_appeal_rights\",\n          \"taxonomy_fit\": \"partial\",\n          \"polarity\": \"permissive\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"Arrests of senior officials following commission findings demonstrate the judicial accountability mechanism functioning, reversing prior impunity concerns.\",\n          \"supporting_text\": \"former prime minister K.P. Sharma Oli was arrested the day after Shah's swearing-in ceremony, following recommendations from a commission set up to investigate the deadly police crackdown\",\n          \"confidence\": 0.75\n        }\n      ],\n      \"requires_human_review\": false,\n      \"review_note\": \"\"\n    },\n    {\n      \"evidence_id\": \"ev_65eb5d2ce92c\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms the Karki Commission's findings and recommendations for criminal proceedings against officials over protest deaths.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"loss_of_appeal_rights\",\n          \"taxonomy_fit\": \"partial\",\n          \"polarity\": \"permissive\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"The commission's formal findings and recommendation of criminal proceedings against implicated officials represent an active judicial accountability process, supporting the appeal/judicial review barrier.\",\n          \"supporting_text\": \"It recommended criminal proceedings against then-Prime Minister KP Sharma Oli, Home Minister Ramesh Lekhak, and IGP Chandra Kuber Khapung for negligence leading to deaths.\",\n          \"confidence\": 0.75\n        }\n      ],\n      \"requires_human_review\": false,\n      \"review_note\": \"\"\n    }\n  ]\n}\n```"
+    },
+    {
+      "input_ids": [
+        "ev_f40dca6b5147",
+        "ev_2a8030ada4ff",
+        "ev_6edbef837fae",
+        "ev_3b94b211710f",
+        "ev_94d4d1ea1f53"
+      ],
+      "raw_text": "```json\n{\n  \"classifications\": [\n    {\n      \"evidence_id\": \"ev_f40dca6b5147\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms NHRC recommendations for investigations into individuals including sitting MPs regarding protest unrest.\",\n      \"relevant\": false,\n      \"assignments\": [],\n      \"requires_human_review\": false,\n      \"review_note\": \"Concerns accountability for protest violence and MP conduct; no direct connection to NGO formation, governance, operations, resources, or reputational restrictions on civil society.\"\n    },\n    {\n      \"evidence_id\": \"ev_2a8030ada4ff\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet directly quotes Home Minister's statement threatening action against media outlets outside the established legal jurisdiction of the Press Council.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"reputational_and_political\",\n          \"subcategory\": \"hostile_official_rhetoric\",\n          \"taxonomy_fit\": \"exact\",\n          \"polarity\": \"restrictive\",\n          \"affected_barrier\": \"public_trust_and_proactive_transparency\",\n          \"rationale\": \"A government minister publicly threatened punitive action against media outlets, bypassing the existing legal channel (Press Council), indicating an escalation of official pressure on civic/press actors.\",\n          \"supporting_text\": \"Home Minister Sudan Gurung in June 2026 said that the Home Ministry would take action against media organisations that insult or defame individuals\",\n          \"confidence\": 0.72\n        }\n      ],\n      \"requires_human_review\": false,\n      \"review_note\": \"\"\n    },\n    {\n      \"evidence_id\": \"ev_6edbef837fae\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms a journalist was assaulted while covering a political campaign, allegedly linked to a party-affiliated group.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"reputational_and_political\",\n          \"subcategory\": \"other\",\n          \"taxonomy_fit\": \"outside_current_subcategories\",\n          \"polarity\": \"contextual\",\n          \"affected_barrier\": \"public_trust_and_proactive_transparency\",\n          \"rationale\": \"Physical assault on a journalist during political coverage indicates a hostile environment for press/civic actors, but the perpetrators are described as party-affiliated individuals rather than a state action or policy, so it does not clearly establish a state-driven restrictive measure.\",\n          \"supporting_text\": \"Arjun Acharya... was assaulted. This occurred on 26 February (February 26), while covering the election activities of K. P. Sharma Oli.\",\n          \"confidence\": 0.55\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"Ambiguous whether this constitutes a state-attributable restriction or isolated political violence; taxonomy fit is uncertain.\"\n    },\n    {\n      \"evidence_id\": \"ev_3b94b211710f\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms a draft NHRC Act was submitted to the PMO but remains unfinalised, under evaluation at the Ministry of Finance.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"other\",\n          \"taxonomy_fit\": \"outside_current_subcategories\",\n          \"polarity\": \"contextual\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"Describes a pending legislative reform process for the national human rights body without confirming either a restriction or a protective outcome; the bill's fate remains undetermined.\",\n          \"supporting_text\": \"the government has yet to finalise it. The bill is under evaluation at the Ministry of Finance.\",\n          \"confidence\": 0.6\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"Status update only; no clear restrictive or permissive effect established yet.\"\n    },\n    {\n      \"evidence_id\": \"ev_94d4d1ea1f53\",\n      \"grounding_status\": \"supported\",\n      \"grounding_note\": \"Snippet confirms advocates questioned the accuracy of Nepal's UN report claims regarding NHRC autonomy and the draft Act.\",\n      \"relevant\": true,\n      \"assignments\": [\n        {\n          \"category\": \"governance\",\n          \"subcategory\": \"other\",\n          \"taxonomy_fit\": \"outside_current_subcategories\",\n          \"polarity\": \"contextual\",\n          \"affected_barrier\": \"appeal_and_judicial_review\",\n          \"rationale\": \"Highlights a discrepancy between official claims of reform progress and advocates' assessment, providing interpretive context on institutional credibility rather than a specific restrictive or permissive change.\",\n          \"supporting_text\": \"the claims in the report presented before the United Nations are exaggerated, say those working in human rights advocacy.\",\n          \"confidence\": 0.6\n        }\n      ],\n      \"requires_human_review\": true,\n      \"review_note\": \"General credibility dispute over reported reforms; does not establish a concrete restriction or protection.\"\n    }\n  ]\n}\n```"
+    }
+  ]
+}
