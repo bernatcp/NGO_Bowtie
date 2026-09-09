@@ -52,3 +52,8 @@ A full run makes several real Claude API calls and takes roughly 10–20 minutes
 ### Cost
 
 A full live run costs approximately **US$0.80–1.00** at Sonnet 5 pricing ($2 / $10 per 1M input/output tokens), broken down roughly as: collector ~$0.24, classifier ~$0.21, maintainer ~$0.29, timeline render ~$0.08. These are estimates derived from output file token sizes, not exact billed usage.
+
+## License
+
+- The **code** in this repository (the notebook) is licensed under the [MIT License](LICENSE_CODE).
+- The **data** (collected evidence, classifications, article revisions, and timeline outputs) is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](LICENSE_DATA).
